@@ -16,6 +16,10 @@ SwiperCore.use([Navigation, Scrollbar, Autoplay, Pagination]);
 const HeroBanner = () => {
     const [focus, setFocus] = React.useState(false);
 
+    // const Animation = () => {
+    //     setFocus(true);
+    // }
+
     return (
         <section className="hero_banner">
             <div className="hero_banner_trescon_logo">
@@ -51,7 +55,7 @@ const HeroBanner = () => {
                                                             <strong className="russo-one"> <CountUp
                                                                 start={focus ? 0 : null}
                                                                 end={data.title}
-                                                                duration={2}
+                                                                duration={1}
                                                                 redraw={true}
                                                             >
                                                                 {({ countUpRef }) => (
@@ -79,10 +83,11 @@ const HeroBanner = () => {
                         )
                     })}
                     <div className="hero_banner_slider_btns d-flex justify-content-between flex-row-reverse">
-                        <div className="swiper-button-next">
+                        <div className="swiper-button-next" onClick={() => setFocus(false)}>
                             <img src="/images/right_arrow_white.png" alt="" />
+
                         </div>
-                        <div className="swiper-button-prev">
+                        <div className="swiper-button-prev" onClick={() => setFocus(false)}>
                             <img src="/images/left_arrow_white.png" alt="" />
                         </div>
                     </div>
