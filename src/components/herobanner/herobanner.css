@@ -1,0 +1,121 @@
+/******************** Hero Banner CSS ********************/
+section.hero_banner {
+    position: relative;
+  }
+  
+  .hero_banner_trescon_logo {
+    position: absolute;
+    top: 18%;
+    right: 3.3%;
+    z-index: 2;
+  }
+  
+  .hero_banner_slide_item {
+    height: 100vh;
+    position: relative;
+    min-height: 700px;
+  }
+  
+  .hero_banner_video {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .hero_banner_text {
+    position: absolute;
+    bottom: 71px;
+    left: 0;
+    right: 0;
+    top: 290px;
+    text-align: center;
+  }
+  
+  .hero_banner_video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .hero_banner_video:before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: #000000;
+    opacity: 0.6;
+  }
+  
+  .media_coverage_list {
+    padding: 93px 0 25px;
+  }
+  
+  .media_coverage_box strong {
+    display: inline-block;
+    font-size: 47px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: #f9f9f9;
+  }
+  
+  .media_coverage_box {
+    margin: 0 35px;
+    text-align: center;
+    max-width: 200px;
+    position: relative;
+  }
+  
+  .media_coverage_box:not(:last-child):before {
+    position: absolute;
+    content: "";
+    background: #fce41c;
+    height: 121%;
+    width: 3px;
+    transform: skewX(-21deg);
+    right: -36px;
+    top: -6px;
+  }
+  .media_coverage_box p {
+    font-size: 18px;
+    margin: 15px 0 0 0;
+    color: #f9f9f9;
+  }
+  .hero_banner_text small {
+    color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1;
+    display: inline-block;
+    padding: 17px 0 0 0;
+  }
+  .hero_banner_slider_btns {
+    max-width: 1860px;
+    padding: 0 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .hero_banner_slider_btns > div {
+    position: relative;
+    width: 93px;
+    height: 93px;
+    background: black;
+    border-radius: 100%;
+    opacity: 0.3;
+    outline: none;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .hero_banner_slider_btns > div:after {
+    content: none;
+  }
+  
+  .hero_banner_slider_btns > div:hover {
+    opacity: 1;
+  }
+  .hero_banner_slider_btns .swiper-button-disabled {
+    opacity: 0;
+  }
+  /******************** Hero Banner CSS ********************/

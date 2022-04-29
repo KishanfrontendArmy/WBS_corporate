@@ -1,0 +1,123 @@
+/******************** Connectiong Business CSS ********************/
+section.connectiong_business {
+    padding: 138px 0 0;
+    position: relative;
+  }
+  section.connectiong_business::before {
+    position: absolute;
+    content: "";
+    background: url(/public/images/bg_pattern.svg) no-repeat;
+    width: 116%;
+    height: 96%;
+    bottom: -31%;
+    background-size: cover;
+    opacity: 0.15;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .connectiong_business_title h2 {
+    text-align: center;
+    font-size: 83px;
+    line-height: 103px;
+    color: #0a0a0a;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* background-image: url(../images/Vector-Smart-Object-copy-10.png); */
+    display: inline-block;
+    background-position: -120px 19%;
+  
+    background-repeat: no-repeat;
+  }
+  
+  .connectiong_business_title h2 strong {
+    font-size: 131px;
+    color: #956802;
+    font-weight: 900;
+    display: block;
+    position: relative;
+    mix-blend-mode: hard-light;
+    background-color: white;
+  }
+  
+  .connectiong_business_title {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .connectiong_business_title h2 span {
+    position: relative;
+    display: inline-block;
+  }
+  .connectiong_business_title h2 span:before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(/public/images/Vector-Smart-Object-copy-10.png);
+    background-position: -94px 33%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+  }
+  
+  .connectiong_business_inr_img_slider {
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: lighten;
+  }
+  
+  .connectiong_business_inr_img_slider_otr {
+    position: relative;
+  }
+  .connectiong_business_inr_img_slide_item img {
+    margin: -100px 0 0 0;
+  }
+  .connectiong_business_inr_left_slide_item h3 {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #fbb51a;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .connectiong_business_inr_left_slide_item strong {
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    width: 100%;
+    padding: 67px 0 30px 0;
+  }
+  
+  .connectiong_business_inr_left_slide_item p {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #0e0d0d;
+  }
+  .swiper_dot_pagination {
+    position: relative;
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+  
+  .swiper_dot_pagination .swiper-pagination-bullet {
+    background: #3c3c3c;
+    width: 50px;
+    height: 6px;
+    border-radius: 0;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .swiper_dot_pagination
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fed11a;
+  }
+  .connectiong_business_inr {
+    padding: 160px 0;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+}
+  /******************** Connectiong Business CSS ********************/

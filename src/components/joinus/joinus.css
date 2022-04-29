@@ -1,0 +1,41 @@
+/******************** Join Us CSS ********************/
+.join_us_inr {
+    gap: 46px;
+    margin: 67px 0 0 0;
+  }
+  
+  .join_us_box a {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .join_us_box a .join_us_box_text {
+    position: absolute;
+    left: 0;
+    bottom: 52px;
+    right: 0;
+    text-align: center;
+  }
+  
+  .join_us_box a .join_us_box_text h3 {
+    font-size: 100px;
+    line-height: 70px;
+  }
+  
+  .tx_wht {
+    color: #fdfdfd;
+  }
+  
+  .join_us_box a .join_us_box_text p {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  .tx_ylw {
+    color: #fed11a;
+  }
+  
+  .tx_black {
+    color: #000000;
+  }
+  /******************** Join Us CSS ********************/

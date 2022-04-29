@@ -1,0 +1,78 @@
+
+/******************** What Attendees Say CSS ********************/
+section.what_attendees_say {
+    position: relative;
+  }
+  
+  .what_attendees_say_text {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    right: 0;
+  }
+  
+  .what_attendees_say_text h2 {
+    font-size: 71px;
+    color: #f8f8f8;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 63px;
+    margin: 0 0 24px 0;
+  }
+  
+  .what_attendees_say_text h2 strong {
+    display: block;
+    color: #fbb51a;
+    font-size: 142px;
+    line-height: 193px;
+    font-weight: 400;
+    text-transform: none;
+  }
+  
+  .what_attendees_say_video {
+    position: relative;
+  }
+  .what_attendees_say_video:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    height: 30%;
+    opacity: 0.8;
+    bottom: 0;
+    background: rgb(81, 68, 55);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(81, 68, 55, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(81, 68, 55, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(81, 68, 55, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+  }
+  .what_attendees_say_right a {
+    width: 188px;
+    height: 188px;
+    background: #fbb51a;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 15px rgb(254 207 104);
+    padding: 0 0 0 10px;
+    cursor: pointer;
+  }
+  
+  .what_attendees_say_right a svg {
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .what_attendees_say_right a:hover svg {
+    transform: scale(1.2);
+  }
+  /******************** Waht Attendees Say CSS ********************/

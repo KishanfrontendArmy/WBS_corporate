@@ -1,0 +1,73 @@
+/******************** Advisory Board CSS ********************/
+section.advisory_board {
+    position: relative;
+    padding: 0 0 82px 0;
+  }
+  section.advisory_board::before {
+    position: absolute;
+    content: "";
+    background: url(/public/images/bg_pattern.svg) no-repeat;
+    width: 32%;
+    height: 31%;
+    top: 88%;
+    background-size: cover;
+    opacity: 0.15;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .title_box {
+    text-align: center;
+  }
+  
+  .title_box h2 {
+    font-size: 64px;
+    color: #0e0d0d;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  .title_box p {
+    max-width: 69%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0e0d0d;
+    padding: 44px 0 0 0;
+  }
+  
+  .advisory_board_list {
+    margin: 18px 0 0 0;
+  }
+  
+  .advisory_board_box {
+    text-align: center;
+  }
+  
+  .advisory_board_box h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    margin: 39px 0 0 0;
+  }
+  
+  .advisory_board_box p {
+    color: #0e0d0d;
+    padding: 23px 5% 4px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  .advisory_board_box strong {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0e0d0d;
+  }
+  .advisory_board_list .swiper_dot_pagination .swiper-pagination-bullet {
+    height: 11px;
+}.swiper_dot_pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fed11a;
+}
+  /******************** Advisory Board CSS ********************/
