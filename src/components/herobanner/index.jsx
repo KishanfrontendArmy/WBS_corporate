@@ -30,6 +30,7 @@ const HeroBanner = () => {
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
+                    loop={true}
                     navigation={{
                         nextEl: ".hero_banner_slider_btns .swiper-button-next",
                         prevEl: ".hero_banner_slider_btns .swiper-button-prev"
