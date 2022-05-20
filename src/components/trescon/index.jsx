@@ -4,7 +4,7 @@ import { TresconData } from '../../data';
 
 const Trescon = () => {
     return (
-        <section className="trescon_detail">
+        <section className="trescon_detail" id="aboutlink">
             {TresconData && TresconData.length > 0 && TresconData.map((data, index) => {
                 return (
 

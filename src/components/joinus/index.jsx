@@ -4,7 +4,7 @@ import { JoinUsData } from '../../data';
 
 const JoinUs = () => {
     return (
-        <section className="join_us bg-white-main">
+        <section className="join_us bg-white-main" id="joinuslink">
             <div className="container">
                 <div className="title_box wow fadeInUp">
                     <h2>JOIN US AT TRESCON</h2>

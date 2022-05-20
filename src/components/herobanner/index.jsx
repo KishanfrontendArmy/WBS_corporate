@@ -17,7 +17,7 @@ const HeroBanner = () => {
     const [focus, setFocus] = React.useState(false);
 
     return (
-        <section className="hero_banner">
+        <section className="hero_banner" id="Homelink">
 
             <div className="hero_banner_trescon_logo">
                 <img src={HeroBannerImageData.tresconlogo} alt="" />

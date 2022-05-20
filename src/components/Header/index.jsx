@@ -19,14 +19,14 @@ function Header() {
                     <div className="collapse navbar-collapse header_right" id="navbarNav">
                         <div className="menu">
                             <ul className="d-flex justify-content-between align-items-center">
-                                <li><a href="#.">HOME</a></li>
-                                <li><a href="#.">ABOUT</a></li>
-                                <li><a href="#.">OUR PLATFORMS </a></li>
-                                <li><a href="#.">EVENTS</a></li>
-                                <li><a href="#.">FORWARD SCHEDULE </a></li>
-                                <li><a href="#.">CLIENTS</a></li>
-                                <li><a href="#.">CAREERS</a></li>
-                                <li><a href="#.">CONTACT</a></li>
+                                <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false"><a href="#Homelink">HOME</a></li>
+                                <li><a href="#aboutlink">ABOUT</a></li>
+                                <li><a href="#connectinglink">OUR PLATFORMS </a></li>
+                                <li><a href="#joinuslink">EVENTS</a></li>
+                                <li><a href="#forwardschelink">FORWARD SCHEDULE </a></li>
+                                <li><a href="#clientlink">CLIENTS</a></li>
+                                <li><a href="#joinuslink">CAREERS</a></li>
+                                <li><a href="#contactlink">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import { GlobalOfficesData } from '../../data';
 const GlobalOffices = () => {
     return (
 
-        <section className="global_offices bg-white-main">
+        <section className="global_offices bg-white-main" id="contactlink">
             <div className="container">
                 <div className="title_box">
 

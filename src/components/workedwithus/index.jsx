@@ -4,7 +4,7 @@ import { WhoWorkedWithUsData } from '../../data';
 
 const WorkedWithUs = () => {
     return (
-        <section className="who_worked_with">
+        <section className="who_worked_with" id="clientlink">
             <div className="container">
                 <div className="who_worked_with_inr">
                     <h2>GOVERNMENTS AND ASSOCIATIONS WHO HAVE WORKED WITH US IN THE PAST</h2>

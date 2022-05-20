@@ -11,7 +11,7 @@ SwiperCore.use([Navigation, Thumbs, Scrollbar, Autoplay, Pagination]);
 
 const ConnectioningBusiness = () => {
     return (
-        <section className="connectiong_business bg-white-main">
+        <section className="connectiong_business bg-white-main" id="connectinglink">
             <div className="container">
                 <div className="connectiong_business_title wow fadeInUp">
                     <h2>CONNECTING

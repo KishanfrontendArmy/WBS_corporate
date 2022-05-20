@@ -4,7 +4,7 @@ import { AttendeeSayData } from '../../data';
 
 const AttendeeSay = () => {
     return (
-        <section className="what_attendees_say">
+        <section className="what_attendees_say" id="forwardschelink">
             {AttendeeSayData && AttendeeSayData.length > 0 && AttendeeSayData.map((data, index) => {
                 return (
                     <>
