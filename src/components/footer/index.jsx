@@ -8,21 +8,20 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer_inr">
-
           <div className="footer_menu">
 
-            <ul className="d-flex align-items-center justify-content-center">
+            <ul className="d-flex align-items-center justify-content-center wow fadeInUp">
               {FooterData && FooterData.length > 0 && FooterData.map((data, index) => {
                 return (
                   <li><a href="#.">{data.text}</a></li>
                 )
               })}
             </ul>
-            <p>© Copyright 2022 Trescon . All Rights Reserved. The information in this website/document is for promotional purposes only and not contractual. No part of this website/document may be reproduced or transmitted in any form or by any means without the prior written permission of Trescon</p>
+            <p className="wow fadeInUp">© Copyright 2022 Trescon . All Rights Reserved. The information in this website/document is for promotional purposes only and not contractual. No part of this website/document may be reproduced or transmitted in any form or by any means without the prior written permission of Trescon</p>
 
           </div>
 
-          <div className="ft_social">
+          <div className="ft_social wow fadeInUp">
             <ul className="d-flex align-items-center justify-content-center">
               <li><a href="#.">
                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,11 +52,10 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
       </div>
     </footer>
 
   )
 }
 
-export default Footer
+export default Footer;

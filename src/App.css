@@ -235,4 +235,142 @@ button:active {
   background: #f3f3f3;
   color: #000000;
 }
+.bg-white-main {
+  background-color: #fff;
+}
+
+.what_attendees_bg_fixed_videos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -2;
+}
+.what_attendees_bg_fixed_videos:before {
+  position: fixed;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 70%;
+  opacity: 0.8;
+  bottom: 0;
+  background: rgb(81, 68, 55);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+.what_attendees_bg_fixed_videos img, .what_attendees_bg_fixed_videos video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.what_attendees_say_video {
+  opacity: 0;
+}
+
+.title_box {
+  text-align: center;
+}
+
+.title_box h2 {
+  font-size: 64px;
+  color: #0e0d0d;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title_box p {
+  max-width: 69%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0e0d0d;
+  padding: 44px 0 0 0;
+}
 /****************** Common CSS *******************/
+
+
+
+
+
+
+
+
+
+/* /************************** Common CSS (APP.css) ************************** / */
+
+@media screen and (max-width:1800px) {}
+
+@media screen and (max-width:1700px) {}
+
+@media screen and (max-width:1600px) {
+    .title_box h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1300px) {
+    .bdr_btn_white a {
+        font-size: 20px;
+    }
+    .title_box h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .title_box h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width:767px) {
+    .title_box h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .title_box h2 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .swiper_dot_pagination .swiper-pagination-bullet {
+        width: 40px;
+        height: 4px;
+    }
+    .title_box h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .title_box h2 {
+        font-size: 22px;
+    }
+}
+
+
+/* /************************** Common CSS (APP.css) ************************** / */
+

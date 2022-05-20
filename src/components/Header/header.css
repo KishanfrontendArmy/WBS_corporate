@@ -1,47 +1,218 @@
 /******************** Header CSS ********************/
 header.header_main {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    transition: all linear 0.3s 0s;
+  }
+  header.header_main.fixed {
+    background: #0e0d0d;
+  }
+  .header_inr {
+    padding: 55px 0;
+    transition: all linear 0.3s 0s;
+  }
+  header.header_main.fixed .header_inr {
+    padding: 20px 0;
+  }
+  .header_right {
+      display: block !important;
+      flex: unset;
+  }
+  
+  .header_right ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .header_right ul li {
+    list-style: none;
+    margin: 0 12px 0 12px;
+  }
+  
+  .header_right ul li a:before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background: #ffffff;
+    left: 0;
+    width: 100%;
+    transform: translateX(-30%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s linear 0s;
+    bottom: -11px;
+  }
+  
+  .header_right ul li:hover a:before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: all 0.3s linear 0s;
+  }
+  /******************** Header CSS ********************/
+
+/* /************************** Header CSS ************************** / */
+
+.navbar-toggler,
+.mobileIcon {
+    display: none;
+    padding: 0;
 }
 
-.header_inr {
-  padding: 55px 0;
+@media screen and (max-width:1800px) {}
+
+@media screen and (max-width:1700px) {}
+
+@media screen and (max-width:1600px) {
+    .header_inr {
+        padding: 35px 0;
+    }
 }
 
-.header_right ul li a {
-  font-size: 16px;
-  color: #ffffff;
-  text-transform: uppercase;
-  position: relative;
-  display: inline-block;
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1300px) {
+    .header_right ul li {
+        margin: 0 9px;
+    }
 }
 
-.header_right ul li {
-  list-style: none;
-  margin: 0 12px 0 12px;
+@media screen and (max-width:1200px) {
+    .header_inr {
+        padding: 20px 0;
+        align-items: center!important;
+    }
+    /****************** Mobile Menu *****************/
+    .mobileIcon {
+        height: 20px;
+        cursor: pointer;
+        z-index: 999999;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .mobileIcon a {
+        width: 55px;
+        height: 7px;
+        border-radius: 0;
+        display: inline-block;
+        background: #000;
+        position: relative;
+        -webkit-transition: all .2s ease 0s;
+        -moz-transition: all .2s ease 0s;
+        -ms-transition: all .2s ease 0s;
+        -o-transition: all .2s ease 0s;
+        transition: all .2s ease 0s;
+    }
+    .mobileIcon a:before {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        top: -8px;
+        -webkit-transition: all .2s ease 0s;
+        -moz-transition: all .2s ease 0s;
+        -ms-transition: all .2s ease 0s;
+        -o-transition: all .2s ease 0s;
+        transition: all .2s ease 0s;
+    }
+    .mobileIcon a:after {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        bottom: -8px;
+        -webkit-transition: all .2s ease 0s;
+        -moz-transition: all .2s ease 0s;
+        -ms-transition: all .2s ease 0s;
+        -o-transition: all .2s ease 0s;
+        transition: all .2s ease 0s;
+    }
+    .menu-open .mobileIcon a {
+        background: rgb(255 255 255 / 0%);
+    }
+    .menu-open .mobileIcon a:before {
+        transform: rotate(45deg);
+        top: -1px;
+    }
+    .menu-open .mobileIcon a:after {
+        transform: rotate(-45deg);
+        top: -1px;
+    }
+    .mobileIcon a,
+    .mobileIcon a:after,
+    .mobileIcon a:before {
+        width: 24px;
+        height: 2px;
+        border-radius: 5px;
+        background: #fff;
+    }
+    .header_right {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #000;
+        bottom: 0;
+        z-index: 999;
+        width: 100%;
+        transition: transform 300ms ease-in-out 0s;
+        transform: translate3d(100%, 0, 0);
+        transition: transform 300ms ease, opacity 300ms ease;
+        padding: 50px 30px 30px;
+        box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex!important;
+        max-width: 100%;
+    }
+    .menu-open .header_right {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        backface-visibility: hidden;
+        transition: transform 300ms ease, opacity 300ms ease;
+        display: flex!important;
+        overflow: auto;
+    }
+    .menu-open .mobileIcon a:before,
+    .menu-open .mobileIcon a:before,
+    .menu-open .mobileIcon a:after {
+        background: #ffffff;
+    }
+    .menu-open {
+        overflow: hidden;
+    }
+    .header_right .menu ul {
+        flex-direction: column;
+    }
+    .header_right ul li {
+        margin: 15px 0;
+    }
+    .header_right ul li a {
+        font-size: 20px;
+    }
+    /****************** Mobile Menu *****************/
 }
 
-.header_right ul li a:before {
-  position: absolute;
-  content: "";
-  height: 3px;
-  background: #ffffff;
-  left: 0;
-  width: 100%;
-  transform: translateX(-30%);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s linear 0s;
-  bottom: -11px;
-}
+@media screen and (max-width:992px) {}
 
-.header_right ul li:hover a:before {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(0);
-  transition: all 0.5s linear 0s;
-}
-/******************** Header CSS ********************/
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:575px) {}
+
+@media screen and (max-width:479px) {}
+
+@media screen and (max-width:374px) {}
+
+
+/* /************************** Header CSS ************************** / */

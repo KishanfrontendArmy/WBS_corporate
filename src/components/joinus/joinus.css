@@ -1,41 +1,107 @@
 /******************** Join Us CSS ********************/
 .join_us_inr {
-    gap: 46px;
-    margin: 67px 0 0 0;
-  }
-  
-  .join_us_box a {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .join_us_box a .join_us_box_text {
-    position: absolute;
-    left: 0;
-    bottom: 52px;
-    right: 0;
-    text-align: center;
-  }
-  
-  .join_us_box a .join_us_box_text h3 {
-    font-size: 100px;
-    line-height: 70px;
-  }
-  
-  .tx_wht {
-    color: #fdfdfd;
-  }
-  
-  .join_us_box a .join_us_box_text p {
-    font-size: 36px;
-    line-height: 36px;
-  }
-  
-  .tx_ylw {
-    color: #fed11a;
-  }
-  
-  .tx_black {
-    color: #000000;
-  }
-  /******************** Join Us CSS ********************/
+  /*gap: 46px;*/
+  margin: 67px 0 0 0;
+}
+
+.join_us_box a {
+  position: relative;
+  display: inline-block;
+}
+
+.join_us_box a .join_us_box_text {
+  position: absolute;
+  left: 0;
+  bottom: 52px;
+  right: 0;
+  text-align: center;
+}
+
+.join_us_box a .join_us_box_text h3 {
+  font-size: 100px;
+  line-height: 70px;
+}
+
+.tx_wht {
+  color: #fdfdfd;
+}
+
+.join_us_box a .join_us_box_text p {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.tx_ylw {
+  color: #fed11a;
+}
+
+.tx_black {
+  color: #000000;
+}
+/******************** Join Us CSS ********************/
+
+
+
+
+/* /************************** Join Us ************************** / */
+
+@media screen and (max-width:1800px) {}
+
+@media screen and (max-width:1700px) {}
+
+@media screen and (max-width:1600px) {}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1300px) {
+    
+}
+
+@media screen and (max-width:1200px) {
+    .join_us_inr {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .join_us_box {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .join_us_inr {
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:575px) {}
+
+@media screen and (max-width:479px) {
+    .join_us_box a .join_us_box_text p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .join_us_box a .join_us_box_text h3 {
+        font-size: 90px;
+    }
+    .join_us_box a .join_us_box_text {
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+}
+
+@media screen and (max-width:374px) {
+    .join_us_box a .join_us_box_text p {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .join_us_box a .join_us_box_text h3 {
+        font-size: 80px;
+    }
+}
+
+
+/* /************************** Join Us ************************** / */

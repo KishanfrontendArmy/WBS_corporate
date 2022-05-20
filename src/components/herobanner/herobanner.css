@@ -1,3 +1,4 @@
+
 /******************** Hero Banner CSS ********************/
 section.hero_banner {
     position: relative;
@@ -17,7 +18,7 @@ section.hero_banner {
   }
   
   .hero_banner_video {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     position: relative;
   }
@@ -27,14 +28,14 @@ section.hero_banner {
     bottom: 71px;
     left: 0;
     right: 0;
-    top: 290px;
     text-align: center;
   }
   
   .hero_banner_video video {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
+    display: block;
   }
   
   .hero_banner_video:before {
@@ -49,12 +50,15 @@ section.hero_banner {
     padding: 93px 0 25px;
   }
   
-  .media_coverage_box strong {
-    display: inline-block;
+  .media_coverage_box .number_media_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 47px;
     letter-spacing: 1px;
     line-height: 1;
     color: #f9f9f9;
+    min-width: 182px;
   }
   
   .media_coverage_box {
@@ -95,6 +99,7 @@ section.hero_banner {
     left: 0;
     right: 0;
     z-index: 1;
+    margin: 0 auto;
   }
   
   .hero_banner_slider_btns > div {
@@ -119,3 +124,240 @@ section.hero_banner {
     opacity: 0;
   }
   /******************** Hero Banner CSS ********************/
+  
+
+
+/* /************************** Hero Banner CSS ************************** / */
+
+@media screen and (max-width:1800px) {}
+
+@media screen and (max-width:1700px) {}
+
+@media screen and (max-width:1600px) {
+    .media_coverage_box .number_media_box {
+        font-size: 32px;
+        min-width: 150px;
+    }
+    .media_coverage_box {
+        margin: 0 30px;
+    }
+    .hero_banner_trescon_logo {
+        top: 15%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .hero_banner_text {
+        padding: 0 20px;
+    }
+    .media_coverage_box:not(:last-child):before {
+        right: -28px;
+    }
+    .media_coverage_box {
+        margin: 0 20px;
+    }
+    .media_coverage_box .number_media_box {
+        font-size: 30px;
+        min-width: 150px;
+    }
+    .media_coverage_box p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .media_coverage_box p {
+        font-size: 16px;
+    }
+    .hero_banner_slider_btns>div {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+    .media_coverage_box:not(:last-child):before {
+        right: -24px;
+    }
+    .media_coverage_box {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .media_coverage_list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .media_coverage_box {
+        margin: 0 15px 20px;
+    }
+    .hero_banner_slider_btns>div {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+    }
+    .hero_banner_slider_btns {
+        top: 40%;
+    }
+    .media_coverage_list {
+        padding: 67px 0 25px;
+    }
+    .hero_banner_text {
+        bottom: 41px;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .hero_banner_slider_btns {
+        padding: 0 30px;
+    }
+    .footer_inr p {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .hero_banner_slider_btns>div {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    .media_coverage_list {
+        padding: 93px 0 18px;
+    }
+    .footer_menu ul li {
+        margin: 0 15px;
+    }
+    footer.footer {
+        background: #0e0d0d;
+        padding: 50px 0 53px;
+        text-align: center;
+    }
+    .hero_banner_slide_item {
+        height: 100vh;
+        position: relative;
+        min-height: 740px;
+    }
+    .hero_banner_text img {
+        max-width: 400px;
+    }
+    section.trescon_detail:hover .trescon_item_box:hover {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        padding: 0 20px;
+    }
+    .hero_banner_slider_btns {
+        padding: 0 20px;
+    }
+    .hero_banner_text img {
+        max-width: 330px;
+    }
+    .media_coverage_list {
+        padding: 63px 0 18px;
+    }
+    .hero_banner_trescon_logo img {
+        max-width: 220px;
+    }
+    .footer_menu ul {
+        flex-wrap: wrap;
+    }
+    .footer_menu ul li {
+        margin: 0 15px 15px;
+    }
+    .footer_inr p {
+        max-width: 100%;
+        margin: 25px auto;
+    }
+    footer.footer {
+        background: #0e0d0d;
+        padding: 40px 0 43px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .hero_banner_trescon_logo {
+        top: 11%;
+        text-align: center;
+        right: 0;
+        left: 0;
+    }
+    .header_left img {
+        max-width: 140px;
+    }
+    .hero_banner_text img {
+        max-width: 310px;
+    }
+    .media_coverage_box .number_media_box {
+        font-size: 28px;
+        min-width: 149px;
+    }
+    .footer_inr p {
+        margin: 18px auto;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .footer_menu ul li {
+        margin: 0 10px 10px;
+    }
+    footer.footer {
+        background: #0e0d0d;
+        padding: 30px 0 33px;
+    }
+    .media_coverage_box:not(:last-child):before {
+        display: none;
+    }
+    .media_coverage_box {
+        margin: 0 19px;
+        text-align: center;
+        max-width: 129px;
+    }
+    .hero_banner_slide_item {
+        min-height: 690px;
+    }
+    .hero_banner_text img {
+        max-width: 260px;
+    }
+    .hero_banner_trescon_logo {
+        top: 14%;
+    }
+    .hero_banner_slider_btns>div {
+        width: 45px;
+        height: 45px;
+    }
+    .hero_banner_slider_btns {
+        top: 43%;
+    }
+    .media_coverage_box p {
+        margin: 8px 0 11px 0px;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .media_coverage_box {
+        margin: 0 10px;
+        text-align: center;
+        max-width: 118px;
+    }
+    .media_coverage_box .number_media_box {
+        font-size: 24px;
+        min-width: 121px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .footer_inr p {
+        margin: 15px auto;
+    }
+    .media_coverage_box p {
+        font-size: 14px;
+    }
+}
+
+
+/* /************************** Hero Banner CSS ************************** / */
+

@@ -1,73 +1,212 @@
+
 /******************** Advisory Board CSS ********************/
 section.advisory_board {
-    position: relative;
-    padding: 0 0 82px 0;
+  position: relative;
+  padding: 0 0 82px 0;
+  overflow: hidden;
+}
+section.advisory_board::before {
+  position: absolute;
+  content: "";
+  background: url(/public/images/bg_pattern.svg) no-repeat;
+  width: 32%;
+  height: 31%;
+  top: 88%;
+  background-size: cover;
+  opacity: 0.15;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.advisory_board_list {
+  margin: 18px 0 0 0;
+}
+
+.advisory_board_box {
+  text-align: center;
+}
+
+.advisory_board_box h3 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #0e0d0d;
+  text-transform: uppercase;
+  margin: 39px 0 0 0;
+}
+
+.advisory_board_box p {
+  color: #0e0d0d;
+  padding: 23px 5% 4px;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.advisory_board_box strong {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0e0d0d;
+}
+.advisory_board_list .swiper_dot_pagination {
+  padding: 70px 0 0 0;
+}
+.advisory_board_list .swiper_dot_pagination .swiper-pagination-bullet {
+  height: 11px;
+}
+/******************** Advisory Board CSS ********************/
+
+
+
+
+/* /************************** advisory board ************************** / */
+
+@media screen and (max-width:1800px) {
+  .title_box p {
+      padding-top: 40px;
   }
-  section.advisory_board::before {
-    position: absolute;
-    content: "";
-    background: url(/public/images/bg_pattern.svg) no-repeat;
-    width: 32%;
-    height: 31%;
-    top: 88%;
-    background-size: cover;
-    opacity: 0.15;
-    left: 50%;
-    transform: translateX(-50%);
+  .advisory_board_box h3 {
+      font-size: 30px;
   }
-  
-  .title_box {
-    text-align: center;
+}
+
+@media screen and (max-width:1700px) {
+  .advisory_board_img_box img {
+      max-width: 330px;
   }
-  
-  .title_box h2 {
-    font-size: 64px;
-    color: #0e0d0d;
-    font-weight: 900;
-    text-transform: uppercase;
+  .advisory_board_box p {
+      font-size: 22px;
+      line-height: 30px;
+  } 
+}
+
+@media screen and (max-width:1600px) {
+  .advisory_board_img_box img {
+      max-width: 300px;
   }
+  .advisory_board_box h3 {
+      font-size: 27px;
+  }
+  .advisory_board_box strong {
+      font-size: 24px;
+      line-height: 1;
+  }
+  .advisory_board_list .swiper_dot_pagination {
+      padding: 70px 0 0 0;
+  }
+
   
   .title_box p {
-    max-width: 69%;
-    margin: 0 auto;
-    font-size: 24px;
-    line-height: 36px;
-    color: #0e0d0d;
-    padding: 44px 0 0 0;
+      max-width: 1072px;
+      padding-top: 30px;
   }
-  
-  .advisory_board_list {
-    margin: 18px 0 0 0;
+
+}
+
+@media screen and (max-width:1440px) {
+  .advisory_board_img_box img {
+      max-width: 260px;
   }
-  
-  .advisory_board_box {
-    text-align: center;
-  }
-  
   .advisory_board_box h3 {
-    font-size: 34px;
-    font-weight: 700;
-    color: #0e0d0d;
-    text-transform: uppercase;
-    margin: 39px 0 0 0;
+      font-size: 23px;
   }
-  
   .advisory_board_box p {
-    color: #0e0d0d;
-    padding: 23px 5% 4px;
-    font-size: 26px;
-    line-height: 34px;
+      font-size: 18px;
+      line-height: 28px;
   }
-  
   .advisory_board_box strong {
-    display: inline-block;
-    font-size: 26px;
-    font-weight: 700;
-    color: #0e0d0d;
+      font-size: 21px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  
+  .title_box p {
+      max-width: 1072px;
+      padding-top: 20px;
+      font-size: 22px;
+      line-height: 34px;
+  }
+  .advisory_board_box h3 {
+      font-size: 22px;
+  }
+  .advisory_board_box strong {
+      font-size: 19px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  
+  .title_box p {
+      padding-top: 15px;
+      font-size: 20px;
+      line-height: 32px;
+  }
+  .advisory_board_box h3 {
+      font-size: 21px;
+  }
+  .advisory_board_box p {
+      padding-top: 15px;
+  }
+  .advisory_board_list .swiper_dot_pagination {
+      padding: 50px 0 0 0;
+  }
+  section.advisory_board {
+      padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width:767px) {
+  
+  .title_box p {
+      padding-top: 15px;
+      font-size: 18px;
+      line-height: 32px;
+  }
+  .advisory_board_list .swiper_dot_pagination {
+      padding: 40px 0 0 0;
   }
   .advisory_board_list .swiper_dot_pagination .swiper-pagination-bullet {
-    height: 11px;
-}.swiper_dot_pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #fed11a;
+      height: 6px;
+  }
 }
-  /******************** Advisory Board CSS ********************/
+
+@media screen and (max-width:575px) {
+  
+}
+
+@media screen and (max-width:479px) {
+  
+  .title_box p {
+      font-size: 17px;
+      line-height: 28px;;
+  }
+  section.advisory_board {
+      padding-bottom: 50px;
+  }
+  .advisory_board_box h3 {
+      font-size: 20px;
+  }
+  .advisory_board_img_box img {
+      max-width: 240px;
+  }
+  
+}
+
+@media screen and (max-width:374px) {
+  section.advisory_board {
+      padding-bottom: 40px;
+  }
+  
+  .advisory_board_list .swiper_dot_pagination {
+      padding-top: 30px;
+  }
+  .advisory_board_box h3 {
+      font-size: 18px;
+  }
+}
+
+
+/* /************************** advisory board ************************** / */
+

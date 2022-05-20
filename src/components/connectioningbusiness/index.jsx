@@ -11,24 +11,26 @@ SwiperCore.use([Navigation, Thumbs, Scrollbar, Autoplay, Pagination]);
 
 const ConnectioningBusiness = () => {
     return (
-        <section className="connectiong_business">
+        <section className="connectiong_business bg-white-main">
             <div className="container">
-                <div className="connectiong_business_title">
+                <div className="connectiong_business_title wow fadeInUp">
                     <h2>CONNECTING
                         <span>
                             <strong>BUSINESS WITh opportunities</strong>
                         </span>
                     </h2>
                 </div>
-                <div className="connectiong_business_inr d-flex align-items-center justify-content-between">
-                    <div className="connectiong_business_inr_left_slider swiper col-5">
+                <div className="connectiong_business_inr d-flex align-items-center justify-content-between flex-wrap">
+                    <div className="connectiong_business_inr_left_slider swiper col-lg-12  col-xl-6 col-xxl-5 wow fadeInLeft">
                         <div className="swiper-wrapper">
                             <Swiper
                                 slidesPerView={1}
-
-                                // thumbs={{
-                                //     swiper: "connectiong_business_inr_img_slide_item",
-                                // }}
+                                loop={true}
+                                autoplay={{
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                    pauseOnMouseEnter: true
+                                }}
                                 pagination={{
                                     el: ".connectiong_business_swiper-pagination",
                                     clickable: true,
@@ -53,7 +55,7 @@ const ConnectioningBusiness = () => {
                         </div>
                         <div className="connectiong_business_swiper-pagination swiper_dot_pagination"></div>
                     </div>
-                    <div className="connectiong_business_inr_img_slider_otr col-6">
+                    <div className="connectiong_business_inr_img_slider_otr col-lg-12 col-xl-6 wow fadeInRight">
 
                         <div className="connectiong_business_inr_img_slider_bg">
                             <img src="/images/connectiong_business_img_shape.png" alt="" />
@@ -64,6 +66,12 @@ const ConnectioningBusiness = () => {
                                 freeMode={true}
                                 watchSlidesProgress={true}
                                 slidesPerView={1}
+                                loop={true}
+                                autoplay={{
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                    pauseOnMouseEnter: true
+                                }}
                                 pagination={{
                                     el: ".connectiong_business_swiper-pagination",
                                     clickable: true,
@@ -83,16 +91,10 @@ const ConnectioningBusiness = () => {
 
                             </Swiper>
                         </div>
-
-
-
-
                     </div>
                 </div>
-
-
             </div>
-        </section >
+        </section>
 
     )
 }

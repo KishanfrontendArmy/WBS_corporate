@@ -5,7 +5,7 @@ import { GlobalOfficesData } from '../../data';
 const GlobalOffices = () => {
     return (
 
-        <section className="global_offices">
+        <section className="global_offices bg-white-main">
             <div className="container">
                 <div className="title_box">
 
@@ -17,10 +17,10 @@ const GlobalOffices = () => {
                         <img src="/images/whatsapp_icon.png" alt="" />
                     </span>
                 </h3>
-                <div className="global_offices_list">
+                <div className="global_offices_list row">
                     {GlobalOfficesData && GlobalOfficesData.length > 0 && GlobalOfficesData.map((data, index) => {
                         return (
-                            <div className="offices_box">
+                            <div className="offices_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay={data.time}>
                                 <>
                                     <h4>{data.heading}</h4>
                                     <pre>
@@ -37,4 +37,4 @@ const GlobalOffices = () => {
     )
 }
 
-export default GlobalOffices
+export default GlobalOffices;

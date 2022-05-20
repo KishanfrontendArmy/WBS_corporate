@@ -9,10 +9,10 @@ const Trescon = () => {
                 return (
 
                     <div className="trescon_item_box ">
-                        <div className="trescon_item_box_img">
+                        <div className="trescon_item_box_img wow fadeInUp">
                             <img src={data.img} alt="" />
                         </div>
-                        <div className="trescon_item_box_text">
+                        <div className="trescon_item_box_text wow fadeInUp">
                             <h2>{data.name}</h2>
                             <p>{data.text}</p>
                             <div className="a_btn bdr_btn_white">

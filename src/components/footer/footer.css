@@ -1,55 +1,56 @@
 /******************** Footer CSS ********************/
 footer.footer {
-    background: #0e0d0d;
-    padding: 56px 0 73px;
-    text-align: center;
-  }
-  
-  .footer_inr p {
-    font-size: 14px;
-    line-height: 21px;
-    color: #5b5858;
-    max-width: 45%;
-    margin: 30px auto;
-  }
-  .footer_menu ul li a {
-    color: #ffffff;
-    font-size: 12px;
-    line-height: 14px;
-    text-transform: uppercase;
-    cursor: pointer;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .footer_menu ul li {
-    margin: 0 20px;
-    list-style: none;
-  }
-  
-  .footer_menu ul li a:hover {
-    color: #f9b51a;
-  }
-  
-  .ft_social ul li {
-    list-style: none;
-    margin: 0 12px;
-  }
-  .ft_social ul li a {
-    display: inline-block;
-    cursor: pointer;
-  }
-  .ft_social ul li a svg {
-    max-height: 19px;
-    width: auto;
-  }
-  
-  .ft_social ul li a svg path {
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .ft_social ul li a:hover svg path {
-    fill: #f9b51a;
-  }
-  /******************** Footer CSS ********************/
+  background: #0e0d0d;
+  padding: 56px 0 73px;
+  text-align: center;
+}
+
+.footer_inr p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #5b5858;
+  max-width: 45%;
+  margin: 30px auto;
+}
+.footer_menu ul li a {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.footer_menu ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.footer_menu ul li a:hover {
+  color: #f9b51a;
+}
+
+.ft_social ul li {
+  list-style: none;
+  margin: 0 12px;
+}
+.ft_social ul li a {
+  display: inline-block;
+  cursor: pointer;
+}
+.ft_social ul li a svg {
+  max-height: 19px;
+  width: auto;
+}
+
+.ft_social ul li a svg path {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.ft_social ul li a:hover svg path {
+  fill: #f9b51a;
+}
+/******************** Footer CSS ********************/
+
