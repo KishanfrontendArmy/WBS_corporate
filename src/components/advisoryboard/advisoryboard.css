@@ -170,6 +170,7 @@ section.advisory_board::before {
   .advisory_board_list .swiper_dot_pagination .swiper-pagination-bullet {
       height: 6px;
   }
+  
 }
 
 @media screen and (max-width:575px) {

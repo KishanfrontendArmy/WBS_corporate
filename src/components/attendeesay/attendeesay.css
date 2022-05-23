@@ -68,6 +68,9 @@ section.what_attendees_say {
   padding: 0 0 0 10px;
   cursor: pointer;
 }
+.what_attendees_say_right a.videosPlay {
+    padding-left: 0;
+}
 
 .what_attendees_say_right a svg {
   transition: all 0.3s ease-in-out 0s;
@@ -76,6 +79,19 @@ section.what_attendees_say {
 .what_attendees_say_right a:hover svg {
   transform: scale(1.2);
 }
+
+.what_attendees_say.hide_content .what_attendees_say_left {
+    opacity: 0;
+}
+.btn_pause_icon {
+    display: none;
+}
+.videosPlay .btn_pause_icon {
+    display: block;
+}
+.videosPlay .btn_play_icon {
+    display: none;
+} 
 /******************** Waht Attendees Say CSS ********************/
 
 

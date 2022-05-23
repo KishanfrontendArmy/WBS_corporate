@@ -204,6 +204,10 @@ section.global_offices {
   .global_offices h3 span.wht_icon {
       max-width: 30px;
   }
+  .offices_box pre {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 

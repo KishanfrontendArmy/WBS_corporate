@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -38,6 +38,48 @@
               jQuery('.header_main').removeClass('fixed');
           }
       });
+      jQuery(window).scroll(function(){
+          if (jQuery(window).scrollTop() >= 2000) {
+            jQuery('.what_attendees_say').removeClass('what_attendees_top_position');
+          }
+          else {
+            jQuery('.what_attendees_say').addClass('what_attendees_top_position');
+              
+          }
+      });
+
+
+      // jQuery( document ).ready(function($) {
+      //   jQuery('.what_attendees_say_right a').click(function() {
+      //       jQuery('.what_attendees_bg_fixed_videos video').paused ? jQuery('.what_attendees_bg_fixed_videos video').play() : jQuery('.what_attendees_bg_fixed_videos video').pause();
+      //     });
+      // });
+
+      // var vid = document.getElementById("myVideo"); 
+      // function playVid() { 
+      //   vid.play(); 
+      // } 
+      // function pauseVid() { 
+      //   vid.pause(); 
+      // } 
+       
+
+      $(document).ready(function(){
+        $('.play-pause-btn').on('click',function(){
+          if($(this).attr('data-click') == 1) {
+            $(this).attr('data-click', 0)
+            $(this).removeClass('videosPlay')
+            $('#video')[0].pause();
+            jQuery('.what_attendees_say').removeClass('hide_content');
+          } else {
+            $(this).attr('data-click', 1)
+            $(this).addClass('videosPlay')
+            $('#video')[0].play();
+            jQuery('.what_attendees_say').addClass('hide_content');
+          }
+        });
+      });
+
   </script>
 
       <script src="js/jquery-3.6.0.min.js"></script>

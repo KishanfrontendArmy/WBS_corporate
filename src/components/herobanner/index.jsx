@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './herobanner.css';
 import { HeroBannerData, HeroBannerImageData, HeroImageSwipeData } from '../../data';
 import CountUp from "react-countup";
@@ -15,6 +15,15 @@ SwiperCore.use([Navigation, Scrollbar, Autoplay, Pagination]);
 
 const HeroBanner = () => {
     const [focus, setFocus] = React.useState(false);
+    useEffect(() => {
+        const video = document.getElementById('video');
+        video.style.position = 'fixed';
+        video.setAttribute('src', HeroImageSwipeData[0].video);
+        video.setAttribute('playsinline', '');
+        video.setAttribute('muted', '');
+        video.play();
+    }, [])
+
 
     return (
         <section className="hero_banner" id="Homelink">
@@ -44,8 +53,8 @@ const HeroBanner = () => {
                             <div className="swiper-slide">
                                 <SwiperSlide className='hero_banner_slide_item'>
                                     <div className="hero_banner_video">
-                                        <video autoPlay muted loop>
-                                            <source src={data.video} type="video/mp4" />
+                                        <video autoPlay muted playsinline id="video">
+                                            <source src={data.video} type="video/mp4" loop="true"/>
                                         </video>
                                     </div>
                                     <div className="hero_banner_text">

@@ -54,3 +54,33 @@ footer.footer {
 }
 /******************** Footer CSS ********************/
 
+
+
+@media screen and (max-width:1200px) {
+  .footer_inr p {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer_inr p {
+    max-width: 100%;
+    margin: 25px auto;
+  }
+  .footer_menu ul {
+    flex-wrap: wrap;
+  }
+  .footer_menu ul li {
+      margin: 0 15px 15px;
+  }
+  footer.footer {
+      background: #0e0d0d;
+      padding: 40px 0 43px;
+  }
+}
+
+@media screen and (max-width:374px) {
+  .footer_inr p {
+    margin: 15px auto;
+  }
+}

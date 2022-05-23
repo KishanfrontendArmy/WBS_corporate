@@ -210,9 +210,7 @@ section.hero_banner {
     .hero_banner_slider_btns {
         padding: 0 30px;
     }
-    .footer_inr p {
-        max-width: 768px;
-    }
+   
 }
 
 @media screen and (max-width:992px) {
@@ -262,20 +260,7 @@ section.hero_banner {
     .hero_banner_trescon_logo img {
         max-width: 220px;
     }
-    .footer_menu ul {
-        flex-wrap: wrap;
-    }
-    .footer_menu ul li {
-        margin: 0 15px 15px;
-    }
-    .footer_inr p {
-        max-width: 100%;
-        margin: 25px auto;
-    }
-    footer.footer {
-        background: #0e0d0d;
-        padding: 40px 0 43px;
-    }
+   
 }
 
 @media screen and (max-width:575px) {
@@ -335,6 +320,9 @@ section.hero_banner {
     .media_coverage_box p {
         margin: 8px 0 11px 0px;
     }
+    .hero_banner_slider_btns {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:374px) {
@@ -350,13 +338,15 @@ section.hero_banner {
     .container {
         padding: 0 15px;
     }
-    .footer_inr p {
-        margin: 15px auto;
-    }
+    
     .media_coverage_box p {
         font-size: 14px;
     }
+    .hero_banner_text img {
+        padding: 0 35px;
+    }
 }
+
 
 
 /* /************************** Hero Banner CSS ************************** / */

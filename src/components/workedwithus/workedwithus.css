@@ -149,6 +149,16 @@ section.who_worked_with::after {
   .who_worked_with_box {
       max-width: 200px;
   }
+
+  .who_worked_with_list {
+    padding: 0;
+    box-shadow: none;
+  }
+  
+  .who_worked_with_inr {
+    padding:30px 20px;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+  }
   
 }
 
@@ -168,6 +178,9 @@ section.who_worked_with::after {
 @media screen and (max-width:479px) {
   .who_worked_with_inr h2 {
       font-size: 18px;
+  }
+  .who_worked_with_inr {
+    padding: 20px;
   }
 }
 

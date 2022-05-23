@@ -117,6 +117,389 @@ section.connectiong_business::before {
 .connectiong_business_inr {
   padding: 160px 0;
 }
+
+
+
+/* Text Animation svg add */
+.mv-svg-title .text-path {
+  display: block;
+  fill: #fbb51a !important;
+  fill-opacity: 0;
+  stroke: url(#gradation-1);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.mv-svg-title .text-path.new-text-info {
+    fill: #000 !important;
+}
+.mv-svg-title .text-path {
+  /* 日本語の10文字に適用するアニメーション */
+  /* 英語の26文字に適用するアニメーション */
+}
+.mv-svg-title .text-path:nth-child(1) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(2) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(3) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(4) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(5) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(6) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(7) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(8) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(9) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(10) {
+  -webkit-animation: dash1 2s linear forwards;
+          animation: dash1 2s linear forwards;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+.mv-svg-title .text-path:nth-child(11) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(12) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(13) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(14) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(15) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(16) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(17) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(18) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(19) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(20) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(21) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(22) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.44s;
+          animation-delay: 0.44s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(23) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.48s;
+          animation-delay: 0.48s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(24) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.52s;
+          animation-delay: 0.52s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(25) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(26) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(27) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.64s;
+          animation-delay: 0.64s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(28) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.68s;
+          animation-delay: 0.68s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(29) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.72s;
+          animation-delay: 0.72s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(30) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.76s;
+          animation-delay: 0.76s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(31) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(32) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(33) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.88s;
+          animation-delay: 0.88s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(34) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.92s;
+          animation-delay: 0.92s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(35) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.96s;
+          animation-delay: 0.96s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(36) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  stroke-dasharray: 200;
+}
+@-webkit-keyframes dash1 {
+  0% {
+    stroke-dashoffset: 800;
+    stroke-width: 3px;
+  }
+  50% {
+    stroke-dashoffset: 1600;
+    stroke-width: 0.1px;
+  }
+  50.1% {
+    stroke-dashoffset: 800;
+  }
+  80% {
+    stroke-width: 2px;
+    fill: #fbb51a;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: #000;
+    stroke-width: 0;
+    fill: #000;
+    fill-opacity: 1;
+    stroke-dasharray: 400;
+  }
+}
+@keyframes dash1 {
+  0% {
+    stroke-dashoffset: 800;
+    stroke-width: 3px;
+  }
+  50% {
+    stroke-dashoffset: 1600;
+    stroke-width: 0.1px;
+  }
+  50.1% {
+    stroke-dashoffset: 800;
+  }
+  80% {
+    stroke-width: 2px;
+    fill: #fbb51a;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: #000;
+    stroke-width: 0;
+    fill: #000;
+    fill-opacity: 1;
+    stroke-dasharray: 400;
+  }
+}
+@-webkit-keyframes dash1_en {
+  0% {
+    stroke-dashoffset: 200;
+    stroke-width: 2px;
+  }
+  50% {
+    stroke-dashoffset: 400;
+    stroke-width: 0.1px;
+  }
+  50.1% {
+    stroke-dashoffset: 200;
+  }
+  80% {
+    stroke-width: 1px;
+    fill: #fbb51a;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: #000;
+    stroke-width: 0;
+    fill: #000;
+    fill-opacity: 1;
+  }
+}
+@keyframes dash1_en {
+  0% {
+    stroke-dashoffset: 200;
+    stroke-width: 2px;
+  }
+  50% {
+    stroke-dashoffset: 400;
+    stroke-width: 0.1px;
+  }
+  50.1% {
+    stroke-dashoffset: 200;
+  }
+  80% {
+    stroke-width: 1px;
+    fill: #fbb51a;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: #000;
+    stroke-width: 0;
+    fill: #000;
+    fill-opacity: 1;
+  }
+}
 /******************** Connectiong Business CSS ********************/
 
 
@@ -145,11 +528,20 @@ section.connectiong_business::before {
   .connectiong_business_inr_left_slide_item strong {
       padding-top: 50px;
   }
+  section.connectiong_business::before {
+    width: auto;
+  }
+  .connectiong_business_title svg {
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
 }
 
 @media screen and (max-width:1600px) {
   section.connectiong_business::before {
-      width: 100%;
+      width: auto;
   }
   .connectiong_business_title h2 {
       font-size: 70px;
@@ -203,6 +595,9 @@ section.connectiong_business::before {
   .connectiong_business_title h2 strong {
       font-size: 70px;
   }
+  .connectiong_business_title svg {
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width:1200px) {
@@ -243,6 +638,11 @@ section.connectiong_business::before {
       padding: 15px 0;
       font-size: 26px;
   }
+
+  .connectiong_business_title svg {
+    max-width: 500px;
+}
+
 }
 
 @media screen and (max-width:767px) {
@@ -265,6 +665,9 @@ section.connectiong_business::before {
   .connectiong_business_inr {
       padding: 50px 0;
   }
+  .connectiong_business_title svg {
+    max-width: 450px;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -277,6 +680,9 @@ section.connectiong_business::before {
   .connectiong_business_inr_img_slider_otr {
       margin-bottom: 30PX;
   }
+  .connectiong_business_title svg {
+    max-width: 370px;
+}
 }
 
 @media screen and (max-width:479px) {
@@ -306,6 +712,9 @@ section.connectiong_business::before {
  
   .connectiong_business_inr {
       padding: 40px 0;
+  }
+  .connectiong_business_title svg {
+    max-width: 90%;
   }
 }
 

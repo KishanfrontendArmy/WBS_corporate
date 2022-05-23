@@ -17,8 +17,8 @@ export const GlobalOfficesData = [
     },
     {
         heading: "DUBAI, UNITED ARAB EMIRATES",
-        textb1: "Concord Tower, 6th Floor, Dubai Media City P.O.",
-        textb2: " Box 126732, Dubai",
+        textb1: "Concord Tower, 6th Floor, Dubai Media ",
+        textb2: "City P.O. Box 126732, Dubai",
         textb3: " T: (+971) 4454 9859",
         text4: "",
         text5: "",
@@ -83,7 +83,7 @@ export const JoinUsData = [
 
 export const AttendeeSayData = [
     {
-        img: "/images/attendess_say_img.jpg",
+        img: "/images/ourEvent.mp4", //"/images/attendess_say_img.jpg",
         text1: "What Attendees",
         text2: "Say about our Events",
         text3: "Know more",
@@ -250,19 +250,19 @@ export const TresconData = [
 
 export const HeroImageSwipeData = [
     {
-        video: "/images/SampleVideo_1280x720_1mb.mp4",
+        video: "/images/SampleVideo_1280x720_1mb.mov",
         img: "/images/trescon_summit_banner.png",
     },
     {
-        video: "/images/SampleVideo_1280x720_1mb.mp4",
+        video: "/images/SampleVideo_1280x720_1mb.mov",
         img: "/images/trescon_summit_banner.png",
     },
     {
-        video: "/images/SampleVideo_1280x720_1mb.mp4",
+        video: "/images/SampleVideo_1280x720_1mb.mov",
         img: "/images/trescon_summit_banner.png",
     },
     {
-        video: "/images/SampleVideo_1280x720_1mb.mp4",
+        video: "/images/SampleVideo_1280x720_1mb.mov",
         img: "/images/trescon_summit_banner.png",
     },
 ];

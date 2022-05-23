@@ -238,7 +238,9 @@ button:active {
 .bg-white-main {
   background-color: #fff;
 }
-
+.what_attendees_top_position .what_attendees_bg_fixed_videos {
+  opacity: 0;
+}
 .what_attendees_bg_fixed_videos {
   position: fixed;
   top: 0;
