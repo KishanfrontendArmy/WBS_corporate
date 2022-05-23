@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './attendeesay.css';
 import { AttendeeSayData } from '../../data';
 const AttendeeSay = () => {
     const [ playVideo, setPlayVideo ] = useState(false);
-
     return (
         <section className="what_attendees_say what_attendees_top_position what_attendees_say what_attendees_top_position" id="forwardschelink">
             {AttendeeSayData && AttendeeSayData.length > 0 && AttendeeSayData.map((data, index) => {
