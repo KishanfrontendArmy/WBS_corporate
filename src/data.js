@@ -234,16 +234,19 @@ export const TresconData = [
     {
         img: "/images/DSC00659.png",
         name: "ABOUT",
+        link: '/about',
         text: "An exemplary board of highly accomplished advisors, and a senior management with over Eight decades of experience in the events industry is leading Trescon to create world-className exhibitions, some of the industry's biggest conferences and high-level summits - all over the world.",
     },
     {
         img: "/images/shutterstock_1698876385.png",
         name: "HISTORY",
+        link: 'history',
         text: "Since its inception, Trescon has successfully connected thousands of industry experts, technology providers, startups, investors, regional policymakers, government authorities to more than 100k+ participants covering various industry sectors.",
     },
     {
         img: "/images/AFS04248.png",
         name: "SERVICES",
+        link: 'services',
         text: "With an ever-growing team of 250+ professionals in registered and partner offices across the world, Trescon delivers world-className B2B events covering emerging trends, future technologies, major industry sectors and economies - all with global standards and local know-how.",
     },
 ];
@@ -317,14 +320,18 @@ export const HeroBannerImageData = {
 export const FooterData = [
     {
         text: "Cookie Policy",
+        link :"/cokkie-policy"
     },
     {
         text: "Privacy Policy",
+        link:'privacy-policy'
     },
     {
         text: "Code of Conduct",
+        link:'code-conduct'
     },
     {
         text: "General Terms & Conditions",
+        link: 'terms-condition'
     },
 ];
