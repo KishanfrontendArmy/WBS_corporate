@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './herobanner.css';
 import { HeroBannerData, HeroBannerImageData, HeroImageSwipeData } from '../../data';
 import CountUp from "react-countup";
@@ -15,21 +15,12 @@ SwiperCore.use([Navigation, Scrollbar, Autoplay, Pagination]);
 
 const HeroBanner = () => {
     const [focus, setFocus] = React.useState(false);
-    // useEffect(() => {
-    //     const video = document.getElementById('video');
-    //     video.style.position = 'fixed';
-    //     video.setAttribute('src', HeroImageSwipeData[0].video);
-    //     video.setAttribute('playsinline', '');
-    //     video.setAttribute('muted', '');
-    //     video.play();
-    // }, [])
-
 
     return (
         <section className="hero_banner" id="Homelink">
 
             <div className="hero_banner_trescon_logo">
-                <img src={HeroBannerImageData.tresconlogo} alt="" />
+                <img src={HeroBannerImageData.tresconlogo} alt={HeroBannerImageData.tresconlogo} />
             </div>
 
             <div className="hero_banner_slider swiper">
@@ -50,39 +41,37 @@ const HeroBanner = () => {
                 >
                     {HeroImageSwipeData && HeroImageSwipeData.length > 0 && HeroImageSwipeData.map((data, index) => {
                         return (
-                            <div className="swiper-slide">
+                            <div key={`hero_image_${index}`} className="swiper-slide">
                                 <SwiperSlide className='hero_banner_slide_item'>
                                     <div className="hero_banner_video">
-                                        <video autoPlay muted playsinline>
-                                            <source src={data.video} type="video/mp4" loop="true"/>
+                                        <video autoPlay muted playsInline>
+                                            <source src={data.video} type="video/mp4" loop={true}/>
                                         </video>
                                     </div>
                                     <div className="hero_banner_text">
-                                        <img className="wow fadeInUp" src={data.img} alt="" />
+                                        <img className="wow fadeInUp" src={data.img} alt={data.img} />
                                         <div className="media_coverage_list d-flex align-items-center justify-content-center" id="media_list_id1">
-                                            {HeroBannerData && HeroBannerData.length > 0 && HeroBannerData.map((data, index) => {
+                                            {HeroBannerData && HeroBannerData.length > 0 && HeroBannerData.map((data, ind) => {
                                                 return (
-                                                    <>
-                                                        <div className="media_coverage_box wow fadeInUp" data-wow-delay={data.time}>
-                                                            <div className="number_media_box">
-                                                                <strong className="russo-one"> <CountUp
-                                                                    start={focus ? 0 : null}
-                                                                    end={data.title}
-                                                                    duration={2}
-                                                                    redraw={true}
-                                                                >
-                                                                    {({ countUpRef }) => (
-                                                                        <VisibilitySensor onChange={(isVisible) => {
-                                                                            if (isVisible) { setFocus(true); }
-                                                                        }}>
-                                                                            <span ref={countUpRef} />
-                                                                        </VisibilitySensor>
-                                                                    )}
-                                                                </CountUp><span>{data.sign}</span></strong>
-                                                            </div>
-                                                            <p>{data.description}</p>
+                                                    <div key={`media_coverage_0${ind}`} className="media_coverage_box wow fadeInUp" data-wow-delay={data.time}>
+                                                        <div className="number_media_box">
+                                                            <strong className="russo-one"> <CountUp
+                                                                start={focus ? 0 : null}
+                                                                end={data.title}
+                                                                duration={2}
+                                                                redraw={true}
+                                                            >
+                                                                {({ countUpRef }) => (
+                                                                    <VisibilitySensor onChange={(isVisible) => {
+                                                                        if (isVisible) { setFocus(true); }
+                                                                    }}>
+                                                                        <span ref={countUpRef} />
+                                                                    </VisibilitySensor>
+                                                                )}
+                                                            </CountUp><span>{data.sign}</span></strong>
                                                         </div>
-                                                    </>
+                                                        <p>{data.description}</p>
+                                                    </div>
                                                 )
                                             })}
                                         </div>
@@ -93,7 +82,6 @@ const HeroBanner = () => {
                                     </div>
                                 </SwiperSlide>
                             </div>
-
                         )
                     })}
                 </Swiper>

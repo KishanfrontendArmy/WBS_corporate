@@ -223,7 +223,7 @@ export const ConnectioningBusinessImageData = [
         img: "/images/connectiong_business_img.jpg",
     },
     {
-        img: "/images/connectiong_business_img.jpg",
+        img: "/images/AFS04248.png",
     },
     {
         img: "/images/connectiong_business_img.jpg",

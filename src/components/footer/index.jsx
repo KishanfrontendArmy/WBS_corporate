@@ -4,21 +4,22 @@ import { FooterData } from '../../data';
 
 const Footer = () => {
   return (
-
     <footer className="footer">
       <div className="container">
         <div className="footer_inr">
           <div className="footer_menu">
-
             <ul className="d-flex align-items-center justify-content-center wow fadeInUp">
               {FooterData && FooterData.length > 0 && FooterData.map((data, index) => {
                 return (
-                  <li><a href="#.">{data.text}</a></li>
+                  <li key={`menu_${index}`}>
+                    <a href="#.">
+                      {data.text}
+                    </a>
+                  </li>
                 )
               })}
             </ul>
             <p className="wow fadeInUp">© Copyright 2022 Trescon . All Rights Reserved. The information in this website/document is for promotional purposes only and not contractual. No part of this website/document may be reproduced or transmitted in any form or by any means without the prior written permission of Trescon</p>
-
           </div>
 
           <div className="ft_social wow fadeInUp">
@@ -54,7 +55,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-
   )
 }
 

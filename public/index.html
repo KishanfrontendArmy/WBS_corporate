@@ -63,23 +63,6 @@
       //   vid.pause(); 
       // } 
        
-
-      $(document).ready(function(){
-        $('.play-pause-btn').on('click',function(){
-          if($(this).attr('data-click') == 1) {
-            $(this).attr('data-click', 0)
-            $(this).removeClass('videosPlay')
-            $('#video')[0].pause();
-            jQuery('.what_attendees_say').removeClass('hide_content');
-          } else {
-            $(this).attr('data-click', 1)
-            $(this).addClass('videosPlay')
-            $('#video')[0].play();
-            jQuery('.what_attendees_say').addClass('hide_content');
-          }
-        });
-      });
-
   </script>
 
       <script src="js/jquery-3.6.0.min.js"></script>

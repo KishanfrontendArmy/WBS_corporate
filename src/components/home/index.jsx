@@ -1,16 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import './home.css';
 import WOW from 'wowjs';
 import Header from '../Header'
 import HeroBanner from '../herobanner'
-import Trescon from '../trescon';
-import ConnectioningBusiness from '../connectioningbusiness';
-import AdvisoryBoard from '../advisoryboard';
-import AttendeeSay from '../attendeesay';
-import WorkedWithUs from '../workedwithus';
-import JoinUs from '../joinus';
-import GlobalOffices from '../globaloffices';
-import Footer from '../footer';
+
+const Trescon = React.lazy(() => import('../trescon'));
+const ConnectioningBusiness = React.lazy(() => import ('../connectioningbusiness'));
+const AdvisoryBoard = React.lazy(() => import('../advisoryboard'));
+const AttendeeSay = React.lazy(() => import('../attendeesay'));
+const WorkedWithUs = React.lazy(() => import('../workedwithus'));
+const JoinUs = React.lazy(() => import('../joinus'));
+const GlobalOffices = React.lazy(() => import('../globaloffices'));
+const Footer = React.lazy(() => import('../footer'));
 
 const Home = () => {
     useEffect(() => {
@@ -22,14 +23,30 @@ const Home = () => {
         <>
             <Header />
             <HeroBanner />
-            <Trescon />
-            <ConnectioningBusiness />
-            <AdvisoryBoard />
-            <AttendeeSay />
-            <WorkedWithUs />
-            <JoinUs />
-            <GlobalOffices />
-            <Footer />
+            <Suspense fallback={<></>}>
+                <Trescon />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <ConnectioningBusiness />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <AdvisoryBoard />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <AttendeeSay />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <WorkedWithUs />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <JoinUs />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <GlobalOffices />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <Footer />
+            </Suspense>
         </>
     )
 
