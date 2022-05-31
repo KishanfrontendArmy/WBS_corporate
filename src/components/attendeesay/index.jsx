@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './attendeesay.css';
 import { AttendeeSayData } from '../../data';
 const AttendeeSay = () => {
-    const [ playVideo, setPlayVideo ] = useState(false);
-    
     const playpause = () => {
         const ele = document.getElementsByClassName('play-pause-btn')[0];
-        if(ele.getAttribute('data-click') == 1) {
+        if(ele.getAttribute('data-click') === 1) {
             ele.setAttribute('data-click', 0);
             ele.classList.remove('videosPlay');
             document.getElementById('video').pause();

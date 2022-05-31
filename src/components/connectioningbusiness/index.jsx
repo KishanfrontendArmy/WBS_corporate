@@ -47,8 +47,8 @@ const ConnectioningBusiness = () => {
                 var slide = slides[slideIndex];
                 slideTo(slide)
                 slideIndex++;
-                if (slideIndex == slides.length) {
-                slideIndex = 0; 
+                if (slideIndex === slides.length) {
+                    slideIndex = 0; 
                 }
             }, 3500);
         }
