@@ -1,6 +1,7 @@
 import React from 'react';
 import './trescon.css';
 import { TresconData } from '../../data';
+import { Link } from 'react-router-dom';
 
 const Trescon = () => {
     return (
@@ -16,7 +17,7 @@ const Trescon = () => {
                             <h2>{data.name}</h2>
                             <p>{data.text}</p>
                             <div className="a_btn bdr_btn_white">
-                                <a href="#.">Know more</a>
+                                <Link to={`${data.link}`} >Know more</Link>
                             </div>
                         </div>
                     </div>

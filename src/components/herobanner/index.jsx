@@ -76,7 +76,7 @@ const HeroBanner = () => {
                                             })}
                                         </div>
                                         <div className="a_btn bdr_btn_white wow fadeInUp">
-                                            <a href="#.">BOOK TICKETS</a>
+                                            <a href="https://wbsevent.netlify.app/#bookticketslink" target="_blank">BOOK TICKETS</a>
                                         </div>
                                         <small className="wow fadeInUp">Reserve your tickets for upcoming events at special prices</small>
                                     </div>
