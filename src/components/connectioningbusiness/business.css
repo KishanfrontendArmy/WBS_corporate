@@ -26,7 +26,6 @@ section.connectiong_business::before {
   /* background-image: url(../images/Vector-Smart-Object-copy-10.png); */
   display: inline-block;
   background-position: -120px 19%;
-
   background-repeat: no-repeat;
 }
 
@@ -43,6 +42,7 @@ section.connectiong_business::before {
 .connectiong_business_title {
   max-width: 70%;
   margin: 0 auto;
+  min-height: 350px;
 }
 .connectiong_business_title h2 span {
   position: relative;
@@ -412,6 +412,127 @@ section.connectiong_business::before {
           animation-delay: 1s;
   stroke-dasharray: 200;
 }
+.mv-svg-title .text-path:nth-child(35) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 0.96s;
+          animation-delay: 0.96s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(36) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(37) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.04s;
+          animation-delay: 1.04s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(38) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.08s;
+          animation-delay: 1.08s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(39) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.12s;
+          animation-delay: 1.12s;
+  stroke-dasharray: 200;
+}
+
+.mv-svg-title .text-path:nth-child(40) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.16s;
+          animation-delay: 1.16s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(41) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.20s;
+          animation-delay: 1.20s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(42) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.24s;
+          animation-delay: 1.24s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(43) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.28s;
+          animation-delay: 1.28s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(44) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.32s;
+          animation-delay: 1.32s;
+  stroke-dasharray: 200;
+}
+
+.mv-svg-title .text-path:nth-child(45) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.36s;
+          animation-delay: 1.36s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(46) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.40s;
+          animation-delay: 1.40s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(47) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.44s;
+          animation-delay: 1.44s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(48) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.48s;
+          animation-delay: 1.48s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(49) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.52s;
+          animation-delay: 1.52s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(50) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.54s;
+          animation-delay: 1.54s;
+  stroke-dasharray: 200;
+}
+.mv-svg-title .text-path:nth-child(51) {
+  -webkit-animation: dash1_en 2s linear forwards;
+          animation: dash1_en 2s linear forwards;
+  -webkit-animation-delay: 1.60s;
+          animation-delay: 1.60s;
+  stroke-dasharray: 200;
+}
 @-webkit-keyframes dash1 {
   0% {
     stroke-dashoffset: 800;
@@ -515,7 +636,10 @@ section.connectiong_business::before {
   }
 }
 /******************** Connectiong Business CSS ********************/
-
+.animationBox svg {
+  width: 100%;
+  height: auto;
+}
 
 
 /* /************************** Connectiong Business Section  ************************** / */
@@ -545,12 +669,13 @@ section.connectiong_business::before {
   section.connectiong_business::before {
     width: auto;
   }
-  .connectiong_business_title svg {
-    max-width: 700px;
-    margin: 0 auto;
-    display: block;
-    height: auto;
-}
+  .connectiong_business_title  {
+    max-width: 65%;
+  }
+  .connectiong_business_title {
+    min-height: 300px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:1600px) {
@@ -574,6 +699,10 @@ section.connectiong_business::before {
   /* .connectiong_business_inr_img_slide_item img {
       margin-top: -40px;
   } */
+
+  .connectiong_business_title {
+    min-height: 265px;
+  } 
 }
 
 @media screen and (max-width:1440px) {
@@ -589,6 +718,9 @@ section.connectiong_business::before {
   } 
   .connectiong_business_title h2 {
       font-size: 65px;
+  }
+  .connectiong_business_title {
+    min-height: 235px;
   }
 }
 
@@ -611,6 +743,9 @@ section.connectiong_business::before {
   }
   .connectiong_business_title svg {
     max-width: 600px;
+  }
+  .connectiong_business_title {
+    min-height: 180px;
   }
 }
 
@@ -656,6 +791,9 @@ section.connectiong_business::before {
   .connectiong_business_title svg {
     max-width: 500px;
 }
+.connectiong_business_title {
+  min-height: 150px;
+}
 
 }
 
@@ -682,6 +820,9 @@ section.connectiong_business::before {
   .connectiong_business_title svg {
     max-width: 450px;
   }
+  .connectiong_business_title {
+    min-height: 135px;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -696,7 +837,10 @@ section.connectiong_business::before {
   }
   .connectiong_business_title svg {
     max-width: 370px;
-}
+  }
+  .connectiong_business_title {
+    min-height: 110px;
+  }
 }
 
 @media screen and (max-width:479px) {
@@ -730,6 +874,9 @@ section.connectiong_business::before {
   .connectiong_business_title svg {
     max-width: 90%;
   }
+  .connectiong_business_title {
+    min-height: 90px;
+  }
 }
 
 @media screen and (max-width:374px) {
@@ -741,6 +888,9 @@ section.connectiong_business::before {
   }
   .connectiong_business_inr {
       padding-bottom: 30PX;
+  }
+  .connectiong_business_title {
+    min-height: 80px;
   }
 }
 
