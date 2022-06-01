@@ -20,7 +20,7 @@ const GlobalOffices = () => {
                 <div className="global_offices_list row">
                     {GlobalOfficesData && GlobalOfficesData.length > 0 && GlobalOfficesData.map((data, index) => {
                         return (
-                            <div className="offices_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay={data.time}>
+                            <div className="offices_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" key={`global_offices${index}`} data-wow-delay={data.time}>
                                 <>
                                     <h4>{data.heading}</h4>
                                     <pre>

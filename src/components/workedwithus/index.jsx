@@ -12,7 +12,7 @@ const WorkedWithUs = () => {
                         {WhoWorkedWithUsData && WhoWorkedWithUsData.length > 0 && WhoWorkedWithUsData.map((data, index) => {
 
                             return (
-                                <div className="who_worked_with_box col-auto wow fadeInUp" data-wow-delay={data.time}>
+                                <div className="who_worked_with_box col-auto wow fadeInUp" key={`who_worked_with${index}`} data-wow-delay={data.time}>
                                     <img src={data.img} alt="" />
                                 </div>
 
