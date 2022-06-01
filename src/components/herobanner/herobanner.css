@@ -11,14 +11,14 @@ section.hero_banner {
     z-index: 2;
   }
   
-  .hero_banner_slide_item {
+section.hero_banner  .hero_banner_slide_item {
     height: 100vh;
     position: relative;
     min-height: 700px;
   }
   
   .hero_banner_video {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
   }
@@ -32,7 +32,7 @@ section.hero_banner {
   }
   
   .hero_banner_video video {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     display: block;
@@ -230,7 +230,7 @@ section.hero_banner {
         padding: 50px 0 53px;
         text-align: center;
     }
-    .hero_banner_slide_item {
+  section.hero_banner  .hero_banner_slide_item {
         height: 100vh;
         position: relative;
         min-height: 740px;
@@ -301,7 +301,7 @@ section.hero_banner {
         text-align: center;
         max-width: 129px;
     }
-    .hero_banner_slide_item {
+  section.hero_banner  .hero_banner_slide_item {
         min-height: 690px;
     }
     .hero_banner_text img {
