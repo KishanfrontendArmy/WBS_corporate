@@ -12,7 +12,7 @@ const JoinUs = () => {
                 <div className="join_us_inr d-flex row">
                     {JoinUsData && JoinUsData.length > 0 && JoinUsData.map((data, index) => {
                         return (
-                            <div className="join_us_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay={data.time}>
+                            <div className="join_us_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" key={`join_us${index}`}  data-wow-delay={data.time}>
 
                                 <a href="#.">
                                     <div className="join_us_box_img">
