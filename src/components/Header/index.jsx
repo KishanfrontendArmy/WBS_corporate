@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './header.css';
 
 
@@ -14,7 +15,8 @@ function Header() {
                         </a>
                     </div>
                     <div className="mobileIcon">
-                        <a href="#."></a>
+                        <Link to="/"></Link>
+                        {/* <a href=""></a> */}
                     </div>
                     <div className="collapse navbar-collapse header_right" id="navbarNav">
                         <div className="menu">
