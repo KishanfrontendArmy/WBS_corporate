@@ -50,7 +50,7 @@ const ConnectioningBusiness = () => {
                 if (slideIndex === slides.length) {
                     slideIndex = 0;
                 }
-            }, 4000);
+            }, 5000);
         }
     })
 
