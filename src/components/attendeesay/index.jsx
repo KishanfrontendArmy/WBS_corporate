@@ -9,12 +9,12 @@ const AttendeeSay = () => {
             ele.setAttribute('data-click', 0);
             ele.classList.remove('videosPlay');
             document.getElementById('video').pause();
-            document.getElementsByClassName('what_attendees_say')[0].classList.remove('hide_content');
+            // document.getElementsByClassName('what_attendees_say')[0].classList.remove('hide_content');
         } else {
             ele.setAttribute('data-click', 1);
             ele.classList.add('videosPlay');
             document.getElementById('video').play();
-            document.getElementsByClassName('what_attendees_say')[0].classList.add('hide_content');
+            // document.getElementsByClassName('what_attendees_say')[0].classList.add('hide_content');
         }
     }
 
