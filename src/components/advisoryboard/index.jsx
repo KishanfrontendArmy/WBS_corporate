@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './advisoryboard.css';
 import { AdvisoryBoardData } from '../../data';
 import "./swiper.min.css";
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
+import $ from "jquery";
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
 
 import SwiperCore, { Navigation, Scrollbar, Autoplay, Pagination } from 'swiper';
 SwiperCore.use([Navigation, Scrollbar, Autoplay, Pagination]);
-
 
 const AdvisoryBoard = () => {
     const sliderForSingleBreakPoint = {
@@ -25,6 +25,7 @@ const AdvisoryBoard = () => {
             spaceBetween: 0,
         },
     }
+    
     return (
         <section className="advisory_board bg-white-main">
             <div className="container">

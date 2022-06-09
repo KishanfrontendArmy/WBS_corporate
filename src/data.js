@@ -211,12 +211,7 @@ export const ConnectioningBusinessData = [
         heading: "OUR business platforms",
         text: "C-SUITE EVENTS",
         discription: "Customized and private business development platforms for corporate and government agencies. These platforms are completely tailor-made to suit varied business requirements.",
-    },
-    {
-        heading: "OUR business platforms",
-        text: "C-SUITE EVENTS",
-        discription: "Customized and private business development platforms for corporate and government agencies. These platforms are completely tailor-made to suit varied business requirements.",
-    },
+    }
 ];
 export const ConnectioningBusinessImageData = [
     {
@@ -224,10 +219,7 @@ export const ConnectioningBusinessImageData = [
     },
     {
         img: "/images/AFS04248.png",
-    },
-    {
-        img: "/images/connectiong_business_img.jpg",
-    },
+    }
 ];
 
 export const TresconData = [
@@ -315,6 +307,10 @@ export const HeroBannerData = [
 
 export const HeroBannerImageData = {
     tresconlogo: "/images/trescon_banner_logo.png",
+};
+
+export const HeroBannerVideoData = {
+    bannervideo: "/images/SampleVideo_1280x720_1mb.mov",
 };
 
 export const FooterData = [

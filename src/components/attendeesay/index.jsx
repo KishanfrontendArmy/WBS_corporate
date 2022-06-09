@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './attendeesay.css';
 import { Link } from "react-router-dom";
 import { AttendeeSayData } from '../../data';
@@ -9,14 +9,28 @@ const AttendeeSay = () => {
             ele.setAttribute('data-click', 0);
             ele.classList.remove('videosPlay');
             document.getElementById('video').pause();
-            // document.getElementsByClassName('what_attendees_say')[0].classList.remove('hide_content');
         } else {
             ele.setAttribute('data-click', 1);
             ele.classList.add('videosPlay');
             document.getElementById('video').play();
-            // document.getElementsByClassName('what_attendees_say')[0].classList.add('hide_content');
         }
     }
+
+    window.addEventListener('scroll', () => {
+        const rect = document.querySelector('video').getBoundingClientRect();
+        if (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        ) {
+        } else {
+            const ele = document.getElementsByClassName('play-pause-btn')[0];
+            ele.setAttribute('data-click', 0);
+            ele.classList.remove('videosPlay');
+            document.getElementById('video').pause();
+        }
+    });
 
     return (
         <section className="what_attendees_say what_attendees_top_position what_attendees_say what_attendees_top_position" id="forwardschelink">

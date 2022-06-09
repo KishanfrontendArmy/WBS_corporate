@@ -305,8 +305,14 @@ button:active {
   padding: 44px 0 0 0;
 }
 /****************** Common CSS *******************/
-
-
+.swiper_dot_pagination .swiper-pagination-bullet {
+  max-width: 50px;
+  width: 100%;
+}
+.swiper-pagination-bullets {
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -359,11 +365,13 @@ button:active {
 
 @media screen and (max-width:479px) {
     .swiper_dot_pagination .swiper-pagination-bullet {
-        width: 40px;
         height: 4px;
     }
     .title_box h2 {
         font-size: 25px;
+    }
+    .swiper_dot_pagination .swiper-pagination-bullet { 
+      max-width: 40px;
     }
 }
 

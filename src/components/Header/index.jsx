@@ -10,9 +10,9 @@ function Header() {
             <div className="container">
                 <div className="header_inr d-flex justify-content-between align-items-center">
                     <div className="header_left">
-                        <a href="#.">
+                        <Link to="/">
                             <img src="/images/header_logo.png" alt="" />
-                        </a>
+                        </Link>
                     </div>
                     <div className="mobileIcon">
                         <Link to="/"></Link>

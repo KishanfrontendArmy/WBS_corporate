@@ -106,8 +106,6 @@ section.connectiong_business::before {
 
 .swiper_dot_pagination .swiper-pagination-bullet {
   background: #3c3c3c;
-  width: 50px;
-  height: 6px;
   border-radius: 0;
   opacity: 1;
   cursor: pointer;

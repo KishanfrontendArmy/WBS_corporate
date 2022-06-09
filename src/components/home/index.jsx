@@ -1,4 +1,4 @@
-import React, { useEffect, Suspense } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import './home.css';
 import WOW from 'wowjs';
 import Header from '../Header'
@@ -19,9 +19,34 @@ const Home = () => {
             live: false
         }).init();
     })
+    const [visible, setVisible] = useState(false)
+
+    const toggleVisible = () => {
+      const scrolled = document.documentElement.scrollTop;
+      if (scrolled > 400) {
+        setVisible(true)
+      }
+      else if (scrolled <= 400) {
+        setVisible(false)
+      }
+    };
+  
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        /* you can also use 'auto' behaviour
+           in place of 'smooth' */
+      });
+    };
+  
+    window.addEventListener('scroll', toggleVisible);
     
     return (
         <>
+            <button className="Top_icon" style={{ display: visible ? 'block' : 'none' }} onClick={scrollToTop}>
+                <img src="/images/bottom_up.svg" alt="" />
+            </button>
             <Header />
             <HeroBanner />
             <Suspense fallback={<></>}>

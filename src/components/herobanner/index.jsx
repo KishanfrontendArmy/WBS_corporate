@@ -1,6 +1,6 @@
 import React from 'react';
 import './herobanner.css';
-import { HeroBannerData, HeroBannerImageData, HeroImageSwipeData } from '../../data';
+import { HeroBannerData, HeroBannerImageData, HeroBannerVideoData, HeroImageSwipeData } from '../../data';
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import "./swiper.min.css";
@@ -22,7 +22,11 @@ const HeroBanner = () => {
             <div className="hero_banner_trescon_logo">
                 <img src={HeroBannerImageData.tresconlogo} alt={HeroBannerImageData.tresconlogo} />
             </div>
-
+            <div className="hero_banner_video">
+                <video autoPlay muted playsInline>
+                    <source src={HeroBannerVideoData.bannervideo} type="video/mp4" loop={true}/>
+                </video>
+            </div>
             <div className="hero_banner_slider swiper">
                 <Swiper
                     slidesPerView={1}
@@ -43,11 +47,11 @@ const HeroBanner = () => {
                         return (
                             <div key={`hero_image_${index}`} className="swiper-slide">
                                 <SwiperSlide className='hero_banner_slide_item'>
-                                    <div className="hero_banner_video">
+                                    {/* <div className="hero_banner_video">
                                         <video autoPlay muted playsInline>
                                             <source src={data.video} type="video/mp4" loop={true}/>
                                         </video>
-                                    </div>
+                                    </div> */}
                                     <div className="hero_banner_text">
                                         <img className="wow fadeInUp" src={data.img} alt={data.img} />
                                         <div className="media_coverage_list d-flex align-items-center justify-content-center" id="media_list_id1">

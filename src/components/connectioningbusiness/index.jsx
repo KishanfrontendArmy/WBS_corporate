@@ -288,7 +288,7 @@ const ConnectioningBusiness = () => {
                         <div className="swiper-wrapper secandary">
                             <Swiper
                                 id="mainSwiper"
-                                // thumbs={{ swiper: thumbsSwiper }}
+                                onSwiper={setThumbsSwiper}
                                 slidesPerView={1}
                                 loop={true}
                                 autoplay={{
@@ -324,7 +324,7 @@ const ConnectioningBusiness = () => {
                             </div>
                             <div thumbsslider="" className="connectiong_business_inr_img_slider swiper secandary">
                                 <Swiper
-                                    onSwiper={setThumbsSwiper}
+                                    thumbs={{ swiper: thumbsSwiper }}
                                     id="subSwiper"
                                     fadeEffect={{ crossFade: true }}
                                     effect="fade"

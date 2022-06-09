@@ -16,7 +16,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-visibility-sensor": "^5.1.1",
-    "swiper": "^8.0.0",
+    "swiper": "^7.4.1",
     "web-vitals": "^2.1.4",
     "wowjs": "^1.1.3"
   },
