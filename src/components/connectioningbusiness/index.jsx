@@ -38,16 +38,16 @@ const ConnectioningBusiness = () => {
 
     useEffect(() => {
         var svgs = document.querySelectorAll('.animationBox svg path');
-        svgs.forEach((res, key) => {
-            const sec = (key * 2) > 9 ? '0.' + (key * 2) + 's' : '0.0' + (key * 2) + 's';
-            var selector = ".animationBox svg path:nth-child(" + key + ")"; // setup selector
-            var rule = "animation-delay: " + sec;
-            if(document.styleSheets[0]?.insertRule) {
-                document.styleSheets[0]?.insertRule(selector + "{" + rule + "}", key);
-            } else {
-                document.styleSheets[0]?.addRule(selector, rule, key);
-            }
-        })
+        // svgs.forEach((res, key) => {
+        //     const sec = (key * 2) > 9 ? '0.' + (key * 2) + 's' : '0.0' + (key * 2) + 's';
+        //     var selector = ".animationBox svg path:nth-child(" + key + ")"; // setup selector
+        //     var rule = "animation-delay: " + sec;
+        //     if(document.styleSheets[0]?.insertRule) {
+        //         document.styleSheets[0]?.insertRule(selector + "{" + rule + "}", key);
+        //     } else {
+        //         document.styleSheets[0]?.addRule(selector, rule, key);
+        //     }
+        // })
         const interval = setInterval(() => {
             setTitleCount(prev => prev + 1);
         }, 5000);
