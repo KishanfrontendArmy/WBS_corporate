@@ -3084,7 +3084,13 @@
     background: transparent;
     border: 0 !important;
 }
-.Top_icon img {
+
+.Top_icon:hover {
+    background: #fbb51a;
+    /* background: transparent !important; */
+}
+
+.Top_icon {
     background: #fbb51a;
     border: 2px solid ;
     border-radius: 100%;
@@ -3097,9 +3103,9 @@
     overflow-y: scroll;
 }
 .Top_icon img:hover {
-    border-color: #000000;
+    /* border-color: #000000;
     background: transparent;
-    filter: invert(49%) sepia(13%) saturate(5473%) hue-rotate(336deg) brightness(93%) contrast(94%);
+    filter: invert(68%) sepia(97%) saturate(713%) hue-rotate(345deg) brightness(103%) contrast(97%); */
 }
 
 @media screen and (max-width: 900px){

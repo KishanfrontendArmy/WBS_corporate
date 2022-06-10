@@ -291,6 +291,7 @@ const ConnectioningBusiness = () => {
                                 onSwiper={setThumbsSwiper}
                                 slidesPerView={1}
                                 loop={true}
+                                spaceBetween={100}
                                 autoplay={{
                                     delay: 3000,
                                     disableOnInteraction: false,
@@ -300,9 +301,8 @@ const ConnectioningBusiness = () => {
                                     el: ".connectiong_business_swiper-pagination",
                                     clickable: true,
                                 }}
-
-                                className="swiper-slide connectiong_business_inr_left_slide_item">
-
+                                className="swiper-slide connectiong_business_inr_left_slide_item"
+                            >
                                 {ConnectioningBusinessData && ConnectioningBusinessData.length > 0 && ConnectioningBusinessData.map((data, index) => {
                                     return (
                                         <SwiperSlide key={`connecting_${index}`}>

@@ -44,9 +44,11 @@ const Home = () => {
     
     return (
         <>
-            <button className="Top_icon" style={{ display: visible ? 'block' : 'none' }} onClick={scrollToTop}>
-                <img src="/images/bottom_up.svg" alt="" />
-            </button>
+            <div style={{ display: visible ? 'block' : 'none' }}>
+                <button className="Top_icon" onClick={scrollToTop}>
+                    <img src="/images/bottom_up.svg" alt="" />
+                </button>
+            </div>
             <Header />
             <HeroBanner />
             <Suspense fallback={<></>}>
