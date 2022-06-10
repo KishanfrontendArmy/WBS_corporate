@@ -29,6 +29,13 @@ const ConnectioningBusiness = () => {
     document.getElementsByClassName("secandary")[1]?.addEventListener("mouseout", function () {
         document.getElementById('mainSwiper').swiper.autoplay.start();
     });
+
+    useEffect(() => {
+        if((titleCount + 1) > document.querySelectorAll('.animationBox').length) {
+            setTitleCount(0);
+        }
+    })
+
     useEffect(() => {
         var svgs = document.querySelectorAll('.animationBox svg path');
         svgs.forEach((res, key) => {
@@ -41,9 +48,6 @@ const ConnectioningBusiness = () => {
                 document.styleSheets[0].addRule(selector, rule, key);
             }
         })
-    }, []);
-
-    useEffect(() => {
         const interval = setInterval(() => {
             setTitleCount(prev => prev + 1);
         }, 5000);
@@ -54,7 +58,7 @@ const ConnectioningBusiness = () => {
         <section className="connectiong_business bg-white-main" id="connectinglink">
             <div className="container">
                 <div className="connectiong_business_title wow fadeInUp">
-                    {(titleCount + 1) > document.querySelectorAll('.animationBox').length && setTitleCount(0)}
+                    {/* {(titleCount + 1) > document.querySelectorAll('.animationBox').length && setTitleCount(0)} */}
                     <div className={titleCount === 0 ? "animationBox active" : "animationBox"}>
                         <svg width="1168" height="349" viewBox="0 0 1168 349"  fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path  d="M314.999 82.3365C310.321 82.3365 305.978 81.6126 301.968 80.1647C298.015 78.6612 294.562 76.5451 291.611 73.8164C288.715 71.0878 286.46 67.8579 284.845 64.1269C283.23 60.3959 282.422 56.2751 282.422 51.7645C282.422 47.2539 283.23 43.1331 284.845 39.4021C286.46 35.6711 288.715 32.4412 291.611 29.7126C294.562 26.9839 298.015 24.8957 301.968 23.4478C305.978 21.9443 310.321 21.1925 314.999 21.1925C320.735 21.1925 325.802 22.1949 330.202 24.1996C334.656 26.2043 338.332 29.1 341.227 32.8867L328.782 43.9962C327.055 41.8244 325.134 40.1538 323.018 38.9844C320.958 37.7593 318.619 37.1467 316.001 37.1467C313.941 37.1467 312.076 37.4809 310.405 38.1491C308.734 38.8173 307.286 39.7919 306.061 41.0727C304.892 42.3535 303.973 43.9127 303.305 45.7503C302.637 47.5323 302.303 49.537 302.303 51.7645C302.303 53.992 302.637 56.0245 303.305 57.8622C303.973 59.6442 304.892 61.1755 306.061 62.4563C307.286 63.7371 308.734 64.7116 310.405 65.3799C312.076 66.0481 313.941 66.3822 316.001 66.3822C318.619 66.3822 320.958 65.7975 323.018 64.6281C325.134 63.403 327.055 61.7046 328.782 59.5328L341.227 70.6423C338.332 74.3733 334.656 77.269 330.202 79.3294C325.802 81.3341 320.735 82.3365 314.999 82.3365Z" fill="black" />
