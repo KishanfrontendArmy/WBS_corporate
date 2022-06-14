@@ -9,10 +9,10 @@ const Trescon = () => {
             {TresconData && TresconData.length > 0 && TresconData.map((data, index) => {
                 return (
                     <div className="trescon_item_box" key={`trescon_detail${index}`}>
-                        <div className="trescon_item_box_img wow fadeInUp">
+                        <div className="trescon_item_box_img">
                             <img src={data.img} alt="" />
                         </div>
-                        <div className="trescon_item_box_text wow fadeInUp">
+                        <div className="trescon_item_box_text">
                             <h2>{data.name}</h2>
                             <p>{data.text}</p>
                             <div className="a_btn bdr_btn_white">

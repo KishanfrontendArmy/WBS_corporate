@@ -13,12 +13,13 @@ SwiperCore.use([Navigation, Scrollbar, Autoplay, Pagination]);
 
 const AdvisoryBoard = () => {
     const sliderForSingleBreakPoint = {
-        300: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
+        // 300: {
+        //     slidesPerView: 1,
+        //     spaceBetween: 20,
+        // },
         768: {
             slidesPerView: 2,
+            spaceBetween: 0,
         },
         993: {
             slidesPerView: 3,
@@ -37,7 +38,9 @@ const AdvisoryBoard = () => {
 
 
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={1}
+                        observer={true}
+                        observeParents={true}
                         breakpoints={sliderForSingleBreakPoint}
                         loop={true}
                         autoplay={{
@@ -53,8 +56,7 @@ const AdvisoryBoard = () => {
                     >
                         {AdvisoryBoardData && AdvisoryBoardData.length > 0 && AdvisoryBoardData.map((data, index) => {
                             return (
-                                <SwiperSlide key={`advisory_board_box ${index}`}>
-                                    <>
+                                <SwiperSlide key={`advisory_board_box_${index}`}>
                                         <div className="swiper-slide advisory_board_box wow fadeInUp" data-wow-delay={data.time}>
                                             <div className="advisory_board_img_box d-flex align-items-end justify-content-center" >
                                                 <img src={data.img} alt="" />
@@ -63,7 +65,6 @@ const AdvisoryBoard = () => {
                                             <p>{data.text}</p>
                                             <strong>{data.country}</strong>
                                         </div>
-                                    </>
                                 </SwiperSlide>
                             )
                         })}

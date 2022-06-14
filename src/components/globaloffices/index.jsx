@@ -23,8 +23,13 @@ const GlobalOffices = () => {
                             <div className="offices_box col-sm-12 col-md-6 col-lg-4 wow fadeInUp" key={`global_offices${index}`} data-wow-delay={data.time}>
                                 <>
                                     <h4>{data.heading}</h4>
-                                    <pre>
-                                        {data.textb1}<br />{data.textb2}<br />{data.textb3} <br /> {data.text4}<br /> {data.text5}</pre>
+                                    <pre dangerouslySetInnerHTML={{ __html: data.textb1}} >
+                                        {/* {data.textb1}
+                                        {data.textb2}
+                                        {data.textb3} 
+                                        {data.text4}
+                                        {data.text5} */}
+                                    </pre>
                                 </>
 
                             </div>

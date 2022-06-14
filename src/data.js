@@ -1,54 +1,50 @@
 export const GlobalOfficesData = [
     {
         heading: "BENGALURU, INDIA",
-        textb1: "4th floor, PROM’S Complex, 3h, 7th C",
-        textb2: "Main Road, 3rd Block Koramangala,",
-        textb3: "Bengaluru, Karnataka - 560034",
+        textb1: 
+`4th floor, PROM’S Complex, 3h, 7th C
+Main Road, 3rd Block Koramangala, 
+Bengaluru, Karnataka - 560034`,
         time: "0.1s",
     },
     {
         heading: "MANIPAL, INDIA",
-        textb1: "Pragati Business District, 3rd Floor,",
-        textb2: "Laxmindranagar, Manipal - 576104,",
-        textb3: "Udupi District",
-        text4: "",
-        text5: "",
+        textb1: 
+`Pragati Business District, 3rd Floor,
+Laxmindranagar, Manipal - 576104,
+Udupi District `,
         time: "0.3s",
     },
     {
         heading: "DUBAI, UNITED ARAB EMIRATES",
-        textb1: "Concord Tower, 6th Floor, Dubai Media ",
-        textb2: "City P.O. Box 126732, Dubai",
-        textb3: " T: (+971) 4454 9859",
-        text4: "",
-        text5: "",
+        textb1:
+`Concord Tower, 6th Floor, Dubai Media 
+City P.O. Box 126732, Dubai
+ T: (+971) 4454 9859`,
         time: "0.5s",
     },
     {
         heading: "RIYADH, KINGDOM OF SAUDI ARABIA",
-        textb1: "P.O. Box 616, Riyadh, 11421",
-        textb2: "",
-        textb3: "",
-        text4: "",
-        text5: "",
+        textb1:
+`P.O. Box 616, Riyadh, 11421`,
         time: "0.7s",
     },
     {
         heading: "MAURITIUS",
-        textb1: "The Prime, Ground Floor,",
-        textb2: " NexTEracom Tower 1, Cybercity,",
-        textb3: " Ebene, Mauritius",
-        text4: "T: (+230) 468 1610 / 13",
-        text5: "M: (+230) 5942 4360",
+        textb1:
+`The Prime, Ground Floor,
+NexTEracom Tower 1, Cybercity,
+Ebene, Mauritius 
+T: (+230) 468 1610 / 13
+M: (+230) 5942 4360`,
         time: "0.9s",
     },
     {
         heading: "DOHA, QATAR",
-        textb1: "360nautica, 29th Floor, Borooq Tower,",
-        textb2: "West Bay,",
-        textb3: "Doha, Qata",
-        text4: "",
-        text5: "",
+        textb1:
+`360nautica, 29th Floor, Borooq Tower,
+West Bay,
+Doha, Qata `,
         time: "1s",
     },
 

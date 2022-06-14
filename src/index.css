@@ -3100,7 +3100,6 @@
     display: flex !important;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
 }
 .Top_icon img:hover {
     /* border-color: #000000;
@@ -3127,3 +3126,8 @@
 @media screen and (max-width: 374px){
     .Top_icon {left: 83% !important;}
 }
+
+
+.trescon_item_box_img  {
+    visibility: visible !important;
+  }

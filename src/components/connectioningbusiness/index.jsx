@@ -49,21 +49,9 @@ const ConnectioningBusiness = () => {
                 res1.setAttribute("style", `${rule}`);
             })
         })
-        console.log(document.querySelectorAll('.animationBox svg'));
-        // paths.forEach((res, key) => {
-        //     const sec = (key * 4) > 9 ? '0.' + (key * 4) + 's' : '0.0' + (key * 4) + 's';
-        //     var selector = ".animationBox svg path:nth-child(" + key + ")"; // setup selector
-        //     var rule = "animation-delay: " + sec;
-        //     res.setAttribute("style", `${rule}`);
-        // if(document.styleSheets[0]?.insertRule) {
-        //     document.styleSheets[0]?.insertRule(selector + "{" + rule + "}", key);
-        // } else {
-        //     document.styleSheets[0]?.addRule(selector, rule, key);
-        // }
-        // })
         const interval = setInterval(() => {
             setTitleCount(prev => prev + 1);
-        }, 50000);
+        }, 6000);
         return () => clearInterval(interval);
     }, []);
 

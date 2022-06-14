@@ -198,7 +198,12 @@ section.connectiong_business::before {
   width: 100%;
   height: auto;
 }
-
+.connectiong_business_inr_img_slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
 
 /* /************************** Connectiong Business Section  ************************** / */
 
