@@ -87,67 +87,67 @@ export const AttendeeSayData = [
 ];
 export const WhoWorkedWithUsData = [
     {
-        img: "/images/who_worked_with_1.png",
+        img: "/images/who_work_with_1.jpg",
         time: "0.1s",
     },
     {
-        img: "/images/who_worked_with_2.png",
+        img: "/images/who_work_with_2.jpg",
         time: "0.2s",
     },
     {
-        img: "/images/who_worked_with_3.png",
+        img: "/images/who_work_with_3.jpg",
         time: "0.3s",
     },
     {
-        img: "/images/who_worked_with_4.png",
+        img: "/images/who_work_with_4.jpg",
         time: "0.4s",
     },
     {
-        img: "/images/who_worked_with_5.png",
+        img: "/images/who_work_with_5.jpg",
         time: "0.5s",
     },
     {
-        img: "/images/who_worked_with_6.png",
+        img: "/images/who_work_with_6.jpg",
         time: "0.6s",
     },
     {
-        img: "/images/who_worked_with_7.png",
+        img: "/images/who_work_with_7.jpg",
         time: "0.7s",
     },
     {
-        img: "/images/who_worked_with_8.png",
+        img: "/images/who_work_with_8.jpg",
         time: "0.8s",
     },
     {
-        img: "/images/who_worked_with_9.png",
+        img: "/images/who_work_with_9.jpg",
         time: "0.9s",
     },
     {
-        img: "/images/who_worked_with_10.png",
+        img: "/images/who_work_with_10.jpg",
         time: "1s",
     },
     {
-        img: "/images/who_worked_with_11.png",
+        img: "/images/who_work_with_11.jpg",
         time: "1.1s",
     },
     {
-        img: "/images/who_worked_with_12.png",
+        img: "/images/who_work_with_12.jpg",
         time: "1.2s",
     },
     {
-        img: "/images/who_worked_with_13.png",
+        img: "/images/who_work_with_13.jpg",
         time: "1.3s",
     },
     {
-        img: "/images/who_worked_with_14.png",
+        img: "/images/who_work_with_14.jpg",
         time: "1.4s",
     },
     {
-        img: "/images/who_worked_with_15.png",
+        img: "/images/who_work_with_15.jpg",
         time: "1.5s",
     },
     {
-        img: "/images/who_worked_with_16.png",
+        img: "/images/who_work_with_16.jpg",
         time: "1.6s",
     },
 ];
@@ -201,21 +201,46 @@ export const ConnectioningBusinessData = [
     {
         heading: "OUR business platforms",
         text: "C-SUITE EVENTS",
+        discription: "Business facilitation and thought leadership platforms for C-level executives to help build stronger brands, develop business relationships and gain market share.",
+    },
+    {
+        heading: "OUR business platforms",
+        text: "B2B BESPOKE EVENTS",
         discription: "Customized and private business development platforms for corporate and government agencies. These platforms are completely tailor-made to suit varied business requirements.",
     },
     {
         heading: "OUR business platforms",
-        text: "C-SUITE EVENTS",
-        discription: "Customized and private business development platforms for corporate and government agencies. These platforms are completely tailor-made to suit varied business requirements.",
+        text: "EXPOS",
+        discription: "Trescon Expos use the latest, tech-savvy and cost-effective brand promotion approaches and state-of-the-art trade visitor management that gives an unrivalled business experience.",
+    },
+    {
+        heading: "OUR business platforms",
+        text: "INVESTOR CONNECT",
+        discription: "Investor connects are pre-arranged business meetings that introduce pre-screened investors to project stake-holders and business cases globally.",
+    },
+    {
+        heading: "OUR business platforms",
+        text: "VIRTUAL EVENTS",
+        discription: "The recent pandemic has caused a shift in how we live and work. Our virtual events platform seeks to provide all the benefits you would experience at a physical event but with even more to offer.",
     }
 ];
 export const ConnectioningBusinessImageData = [
     {
-        img: "/images/connectiong_business_img.jpg",
+        img: "/images/c-suite-events.png",
     },
     {
-        img: "/images/AFS04248.png",
+        img: "/images/b2b-spoke-events.png",
+    },
+    {
+        img: "/images/expo.png",
+    },
+    {
+        img: "/images/investor-connect.png",
+    },
+    {
+        img: "/images/virtual-events.png",
     }
+
 ];
 
 export const TresconData = [
