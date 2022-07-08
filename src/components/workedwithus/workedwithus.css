@@ -50,7 +50,7 @@ section.who_worked_with::after {
 .who_worked_with_list {
   padding: 70px;
   background: #ffffff;
-  gap: 64px;
+  gap: 58px;
 }
 /******************** Who Worked With CSS ********************/
 
@@ -203,4 +203,6 @@ section.who_worked_with::after {
 
 
 /* ************************** Who Worked With **************************  */
-
+.who_worked_with_image{
+  border: 0.5px solid #e2dede;
+}

@@ -13,7 +13,7 @@ const WorkedWithUs = () => {
 
                             return (
                                 <div className="who_worked_with_box col-auto wow fadeInUp" key={`who_worked_with${index}`} data-wow-delay={data.time}>
-                                    <img src={data.img} alt="" />
+                                    <img className='who_worked_with_image' src={data.img} alt="" />
                                 </div>
 
                             )
