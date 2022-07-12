@@ -72,7 +72,7 @@ export const JoinUsData = [
 
 export const AttendeeSayData = [
   {
-    img: "/images/ourEvent.mp4", //"/images/attendess_say_img.jpg",
+    img: "images/ourEvent.mp4", //"/images/attendess_say_img.jpg",
     text1: "What Attendees",
     text2: "Say about our Events",
     text3: "Know more",
@@ -323,7 +323,7 @@ export const HeroBannerImageData = {
 };
 
 export const HeroBannerVideoData = {
-  bannervideo: "/images/SampleVideo_1280x720_1mb.mov",
+  bannervideo: "/images/banner_video.mov", //"/images/SampleVideo_1280x720_1mb.mov",
 };
 
 export const FooterData = [
