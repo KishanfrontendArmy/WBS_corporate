@@ -41,7 +41,7 @@
 }
 
 .our_events_hosted_box img {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 .map_image {
   content: url("../../../public/images/events-locations.jpeg");
@@ -89,6 +89,9 @@
   }
   .map_image {
     content: url("../../../public/images/events-locations-mobile.jpeg");
+  }
+  .our_events_hosted_box img {
+    margin-bottom: 30px;
   }
 }
 

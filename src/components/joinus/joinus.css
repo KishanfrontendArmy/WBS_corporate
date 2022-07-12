@@ -39,81 +39,79 @@
   color: #000000;
 }
 .join_us {
-  margin-top: -1px;
-  margin-bottom: -1px;
+  padding-top: 100px;
 }
 /******************** Join Us CSS ********************/
 
-
-
-
 /* /************************** Join Us ************************** / */
 
-@media screen and (max-width:1800px) {}
-
-@media screen and (max-width:1700px) {}
-
-@media screen and (max-width:1600px) {}
-
-@media screen and (max-width:1440px) {}
-
-@media screen and (max-width:1300px) {
-    
+@media screen and (max-width: 1800px) {
 }
 
-@media screen and (max-width:1200px) {
-    .join_us_inr {
-        margin-top: 40px;
-    }
+@media screen and (max-width: 1700px) {
 }
 
-@media screen and (max-width:992px) {
-    .join_us_box {
-        margin-bottom: 24px;
-    }
+@media screen and (max-width: 1600px) {
 }
 
-@media screen and (max-width:767px) {
-    .join_us_inr {
-        max-width: 570px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media screen and (max-width: 1440px) {
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .join_us_inr {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .join_us_box {
-    margin-bottom: 20px;  
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .join_us_inr {
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .join_us_box {
+    margin-bottom: 20px;
     padding: 0;
   }
 }
 
-@media screen and (max-width:479px) {
-    .join_us_box a .join_us_box_text p {
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .join_us_box a .join_us_box_text h3 {
-        font-size: 90px;
-    }
-    .join_us_box a .join_us_box_text {
-        bottom: 50%;
-        transform: translateY(50%);
-    }
+@media screen and (max-width: 479px) {
+  .join_us_box a .join_us_box_text p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .join_us_box a .join_us_box_text h3 {
+    font-size: 90px;
+  }
+  .join_us_box a .join_us_box_text {
+    bottom: 50%;
+    transform: translateY(50%);
+  }
 }
 
-@media screen and (max-width:374px) {
-    .join_us_box a .join_us_box_text p {
-        font-size: 25px;
-        line-height: 32px;
-    }
-    .join_us_box a .join_us_box_text h3 {
-        font-size: 80px;
-    }
-    .join_us_box { 
-      margin-bottom: 15px;
-    }
+@media screen and (max-width: 374px) {
+  .join_us_box a .join_us_box_text p {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .join_us_box a .join_us_box_text h3 {
+    font-size: 80px;
+  }
+  .join_us_box {
+    margin-bottom: 15px;
+  }
 }
-
 
 /* /************************** Join Us ************************** / */
