@@ -19,7 +19,3 @@ const OurEventsHosted = () => {
 };
 
 export default OurEventsHosted;
-
-
-
-// src="images/events-locations.jpeg"
