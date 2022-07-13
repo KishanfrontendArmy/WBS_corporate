@@ -40,7 +40,7 @@ const AttendeeSay = () => {
                         {/* Images And Videos Fixed BG Start  */}
                         <div className="what_attendees_bg_fixed_videos">
                             {/* <img src={data.img} alt="" /> */}
-                            <video autoPlay id="video">
+                            <video autoPlay muted id="video">
                                 <source src={data.img} type="video/mp4"/>
                             </video>
                         </div>
