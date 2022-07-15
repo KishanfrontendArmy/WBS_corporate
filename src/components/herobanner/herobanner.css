@@ -129,6 +129,7 @@ section.hero_banner  .hero_banner_slide_item {
 
   .hero_banner_text img {
       max-width: 500px;
+      width: 100%;
   }
   /******************** Hero Banner CSS ********************/
   

@@ -272,28 +272,34 @@ export const HeroImageSwipeData = [
         time: ".2s",
       },
       {
-        title: "41000",
-        sign: "+",
+        title: "41",
+        sign: "k+",
         description: "C-LEVEL ATTENDEES",
         time: ".4s",
+      },
+      {
+        title: '2570',
+        sign: '+',
+        description: 'SPEAKERS',
+        time: '.6s'
       },
       {
         title: "1600",
         sign: "+",
         description: "EXHIBITORS",
-        time: ".6s",
+        time: ".8s",
       },
       {
         title: "800",
         sign: "+",
         description: "MEDIA PARTNERS",
-        time: ".8s",
+        time: "1s",
       },
       {
         title: "51",
         sign: "+",
         description: "COUNTRIES REPRESENTED",
-        time: "1s",
+        time: "1.2s",
       }
     ]
   },
@@ -307,28 +313,34 @@ export const HeroImageSwipeData = [
         time: ".2s",
       },
       {
-        title: "35000",
-        sign: "+",
+        title: "35",
+        sign: "k+",
         description: "C-LEVEL ATTENDEES",
         time: ".4s",
+      },
+      {
+        title: '2000',
+        sign: '+',
+        description: 'SPEAKERS',
+        time: '.6s'
       },
       {
         title: "7900",
         sign: "+",
         description: "INVESTORS",
-        time: ".6s",
+        time: ".8s",
       },
       {
         title: "1320",
         sign: "+",
         description: "EXHIBITORS",
-        time: ".8s",
+        time: "1s",
       },
       {
         title: "52",
         sign: "+",
         description: "COUNTRIES REPRESENTED",
-        time: "1s",
+        time: "1.2s",
       }
     ]
   },
@@ -348,22 +360,28 @@ export const HeroImageSwipeData = [
         time: ".4s",
       },
       {
+        title: '400',
+        sign: '+',
+        description: 'SPEAKERS',
+        time: '.6s'
+      },
+      {
         title: "150",
         sign: "+",
         description: "EXHIBITORS",
-        time: ".6s",
+        time: ".8s",
       },
       {
         title: "80",
         sign: "+",
         description: "MEDIA PARTNER",
-        time: ".8s",
+        time: "1s",
       },
       {
         title: "34",
         sign: "+",
         description: "COUNTRIES REPRESENTED",
-        time: "1s",
+        time: "1.2s",
       }
     ]
   },
@@ -383,22 +401,28 @@ export const HeroImageSwipeData = [
         time: ".4s",
       },
       {
+        title: '550',
+        sign: '+',
+        description: 'SPEAKERS',
+        time: '.6s'
+      },
+      {
         title: "280",
         sign: "+",
         description: "EXHIBITORS",
-        time: ".6s",
+        time: ".8s",
       },
       {
         title: "150",
         sign: "+",
         description: "MEDIA PARTNER",
-        time: ".8s",
+        time: "1s",
       },
       {
         title: "32",
         sign: "+",
         description: "COUNTRIES REPRESENTED",
-        time: "1s",
+        time: "1.2s",
       }
     ]
   },

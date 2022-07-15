@@ -53,9 +53,7 @@ const HeroBanner = () => {
           }}
           className="swiper-wrapper"
         >
-          {HeroImageSwipeData &&
-            HeroImageSwipeData.length > 0 &&
-            HeroImageSwipeData.map((res, index) => {
+          {HeroImageSwipeData?.map((res, index) => {
               return (
                 <div key={`hero_image_${index}`} className="swiper-slide">
                   <SwiperSlide className="hero_banner_slide_item">
