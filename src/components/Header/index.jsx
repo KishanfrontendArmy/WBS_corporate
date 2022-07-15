@@ -21,7 +21,7 @@ function Header() {
                     <div className="collapse navbar-collapse header_right" id="navbarNav">
                         <div className="menu">
                             <ul className="d-flex justify-content-between align-items-center">
-                                <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false"><a href="#Homelink">HOME</a></li>
+                                <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav"><a href="#Homelink">HOME</a></li>
                                 <li><a href="#aboutlink">ABOUT</a></li>
                                 <li><a href="#connectinglink">OUR PLATFORMS </a></li>
                                 <li><a href="#joinuslink">EVENTS</a></li>

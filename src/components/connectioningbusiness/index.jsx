@@ -34,17 +34,14 @@ const ConnectioningBusiness = () => {
         if ((titleCount + 1) > document.querySelectorAll('.animationBox').length) {
             setTitleCount(0);
         }
-    })
+    }, [titleCount])
 
     useEffect(() => {
         document.getElementById('video')
-        var paths = document.querySelectorAll('.animationBox svg path');
         var svgs = document.querySelectorAll('.animationBox svg');
         svgs.forEach((res, kay) => {
-            console.log('Path: ', res.querySelectorAll('path'));
             res.querySelectorAll('path').forEach((res1, key1) => {
                 const sec = (key1 * 4) > 99 ? '1.' + (key1 * 4) + 's' : (key1 * 4) > 9 ? '0.' + (key1 * 4) + 's' : '0.0' + (key1 * 4) + 's';
-                var selector = ".animationBox svg path:nth-child(" + key1 + ")"; // setup selector
                 var rule = "animation-delay: " + sec;
                 res1.setAttribute("style", `${rule}`);
             })

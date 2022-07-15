@@ -126,6 +126,10 @@ section.hero_banner  .hero_banner_slide_item {
   .hero_banner_slider_btns .swiper-button-disabled {
     opacity: 0;
   }
+
+  .hero_banner_text img {
+      max-width: 500px;
+  }
   /******************** Hero Banner CSS ********************/
   
 

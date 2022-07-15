@@ -1,7 +1,6 @@
 import React from "react";
 import "./herobanner.css";
 import {
-  HeroBannerData,
   HeroBannerImageData,
   HeroBannerVideoData,
   HeroImageSwipeData,
@@ -56,40 +55,33 @@ const HeroBanner = () => {
         >
           {HeroImageSwipeData &&
             HeroImageSwipeData.length > 0 &&
-            HeroImageSwipeData.map((data, index) => {
+            HeroImageSwipeData.map((res, index) => {
               return (
                 <div key={`hero_image_${index}`} className="swiper-slide">
                   <SwiperSlide className="hero_banner_slide_item">
-                    {/* <div className="hero_banner_video">
-                                        <video autoPlay muted playsInline>
-                                            <source src={data.video} type="video/mp4" loop={true}/>
-                                        </video>
-                                    </div> */}
                     <div className="hero_banner_text">
                       <img
                         className="wow fadeInUp"
-                        src={data.img}
-                        alt={data.img}
+                        src={res.img}
+                        alt={res.img}
                       />
                       <div
                         className="media_coverage_list d-flex align-items-center justify-content-center"
                         id="media_list_id1"
                       >
-                        {HeroBannerData &&
-                          HeroBannerData.length > 0 &&
-                          HeroBannerData.map((data, ind) => {
+                        {res?.data?.map((res1, ind) => {
                             return (
                               <div
                                 key={`media_coverage_0${ind}`}
                                 className="media_coverage_box wow fadeInUp"
-                                data-wow-delay={data.time}
+                                data-wow-delay={res1.time}
                               >
                                 <div className="number_media_box">
                                   <strong className="russo-one">
                                     {" "}
                                     <CountUp
                                       start={focus ? 0 : null}
-                                      end={data.title}
+                                      end={res1.title}
                                       duration={2}
                                       redraw={true}
                                     >
@@ -105,10 +97,10 @@ const HeroBanner = () => {
                                         </VisibilitySensor>
                                       )}
                                     </CountUp>
-                                    <span>{data.sign}</span>
+                                    <span>{res1.sign}</span>
                                   </strong>
                                 </div>
-                                <p>{data.description}</p>
+                                <p>{res1.description}</p>
                               </div>
                             );
                           })}
@@ -117,6 +109,7 @@ const HeroBanner = () => {
                         <a
                           href="https://wbsevent.netlify.app/#bookticketslink"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           BOOK TICKETS
                         </a>

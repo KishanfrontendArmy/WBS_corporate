@@ -263,58 +263,144 @@ export const TresconData = [
 
 export const HeroImageSwipeData = [
   {
-    video: "/images/SampleVideo_1280x720_1mb.mov",
-    img: "/images/trescon_summit_banner.png",
+    img: "/images/wais-series.svg", //"/images/trescon_summit_banner.png",
+    data: [
+      {
+        title: "35",
+        sign: "",
+        description: "GLOBAL EDITIONS",
+        time: ".2s",
+      },
+      {
+        title: "41000",
+        sign: "+",
+        description: "C-LEVEL ATTENDEES",
+        time: ".4s",
+      },
+      {
+        title: "1600",
+        sign: "+",
+        description: "EXHIBITORS",
+        time: ".6s",
+      },
+      {
+        title: "800",
+        sign: "+",
+        description: "MEDIA PARTNERS",
+        time: ".8s",
+      },
+      {
+        title: "51",
+        sign: "+",
+        description: "COUNTRIES REPRESENTED",
+        time: "1s",
+      }
+    ]
   },
   {
-    video: "/images/SampleVideo_1280x720_1mb.mov",
-    img: "/images/trescon_summit_banner.png",
+    img: "/images/wbs-series.svg",
+    data: [
+      {
+        title: "22",
+        sign: "",
+        description: "GLOBAL EDITIONS",
+        time: ".2s",
+      },
+      {
+        title: "35000",
+        sign: "+",
+        description: "C-LEVEL ATTENDEES",
+        time: ".4s",
+      },
+      {
+        title: "7900",
+        sign: "+",
+        description: "INVESTORS",
+        time: ".6s",
+      },
+      {
+        title: "1320",
+        sign: "+",
+        description: "EXHIBITORS",
+        time: ".8s",
+      },
+      {
+        title: "52",
+        sign: "+",
+        description: "COUNTRIES REPRESENTED",
+        time: "1s",
+      }
+    ]
   },
   {
-    video: "/images/SampleVideo_1280x720_1mb.mov",
-    img: "/images/trescon_summit_banner.png",
+    img: "/images/wcs-series.svg",
+    data: [
+      {
+        title: "13",
+        sign: "",
+        description: "GLOBAL EDITIONS",
+        time: ".2s",
+      },
+      {
+        title: "4500",
+        sign: "+",
+        description: "C-LEVEL ATTENDEES",
+        time: ".4s",
+      },
+      {
+        title: "150",
+        sign: "+",
+        description: "EXHIBITORS",
+        time: ".6s",
+      },
+      {
+        title: "80",
+        sign: "+",
+        description: "MEDIA PARTNER",
+        time: ".8s",
+      },
+      {
+        title: "34",
+        sign: "+",
+        description: "COUNTRIES REPRESENTED",
+        time: "1s",
+      }
+    ]
   },
   {
-    video: "/images/SampleVideo_1280x720_1mb.mov",
-    img: "/images/trescon_summit_banner.png",
-  },
-];
-export const HeroBannerData = [
-  {
-    title: "19",
-    sign: "",
-    description: "GLOBAL EDITIONS",
-    time: ".2s",
-  },
-  {
-    title: "25000",
-    sign: "+",
-    description: "C-LEVEL ATTENDEES",
-    time: ".4s",
-  },
-  {
-    title: "1050",
-    sign: "+",
-    description: "GLOBAL EDITIONS",
-    time: ".6s",
-  },
-  {
-    title: "5100",
-    sign: "+",
-    description: "INVESTORS",
-    time: ".8s",
-  },
-  {
-    title: "800",
-    sign: "+",
-    description: "MEDIA PARTNERS",
-    time: "1s",
-  },
-  {
-    title: "52",
-    sign: "+",
-    description: "COUNTRIES REPRESENTED",
-    time: "1.2s",
+    img: "/images/wcss-series.svg",
+    data: [
+      {
+        title: "14",
+        sign: "",
+        description: "GLOBAL EDITIONS",
+        time: ".2s",
+      },
+      {
+        title: "3500",
+        sign: "+",
+        description: "C-LEVEL ATTENDEES",
+        time: ".4s",
+      },
+      {
+        title: "280",
+        sign: "+",
+        description: "EXHIBITORS",
+        time: ".6s",
+      },
+      {
+        title: "150",
+        sign: "+",
+        description: "MEDIA PARTNER",
+        time: ".8s",
+      },
+      {
+        title: "32",
+        sign: "+",
+        description: "COUNTRIES REPRESENTED",
+        time: "1s",
+      }
+    ]
   },
 ];
 
