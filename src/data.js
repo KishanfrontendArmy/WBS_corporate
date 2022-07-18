@@ -72,7 +72,7 @@ export const JoinUsData = [
 
 export const AttendeeSayData = [
   {
-    img: "images/ourEvent.mp4", //"/images/attendess_say_img.jpg",
+    img: "images/ourEvent.mp4",
     text1: "What Attendees",
     text2: "Say about our Events",
     text3: "Know more",
@@ -162,9 +162,9 @@ export const AdvisoryBoardData = [
   },
   {
     img: "/images/advisory_board_member_3.png",
-    name: "DR. SATYAM PRIYADARSHY",
-    text: "Technology Fellow & Chief Data Scientist, Halliburton;",
-    country: "UNITED STATES",
+    name: "AXEL ANGELI",
+    text: "Digital Transformation Evangelist; Founder, Logosworld",
+    country: "GERMANY",
     time: "0.5s",
   },
   {
@@ -183,11 +183,11 @@ export const AdvisoryBoardData = [
   },
   {
     img: "/images/advisory_board_member_3.png",
-    name: "DR. SATYAM PRIYADARSHY",
-    text: "Technology Fellow & Chief Data Scientist, Halliburton;",
-    country: "UNITED STATES",
-    time: "1.1s",
-  },
+    name: "AXEL ANGELI",
+    text: "Digital Transformation Evangelist; Founder, Logosworld",
+    country: "GERMANY",
+    time: "0.5s",
+  }
 ];
 
 export const ConnectioningBusinessData = [
@@ -263,7 +263,7 @@ export const TresconData = [
 
 export const HeroImageSwipeData = [
   {
-    img: "/images/wais-series.svg", //"/images/trescon_summit_banner.png",
+    img: "/images/wais-series.svg",
     data: [
       {
         title: "35",
@@ -433,7 +433,7 @@ export const HeroBannerImageData = {
 };
 
 export const HeroBannerVideoData = {
-  bannervideo: "/images/banner_video.mov", //"/images/SampleVideo_1280x720_1mb.mov",
+  bannervideo: "/images/banner_video.mov",
 };
 
 export const FooterData = [
