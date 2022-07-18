@@ -24,7 +24,7 @@ header.header_main {
   
   .header_right ul li a {
     font-size: 16px;
-    color: #ffffff;
+    color: #ffffff !important;
     text-transform: uppercase;
     position: relative;
     display: inline-block;
@@ -57,6 +57,30 @@ header.header_main {
   }
   /******************** Header CSS ********************/
 
+.active {
+    display: block !important;
+}
+
+.dropdown-menu {
+    background: #000;
+    padding: 10px 0;
+    top: 130%;
+}
+
+.dropdown-item {
+    padding: 9px 15px;
+    font-size: 13px !important;
+}
+.header_right ul li {
+    position: relative;
+}
+.header_right ul li:hover a.dropdown-item:before {
+    display: none !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #fbb51a;
+}
 /* /************************** Header CSS ************************** / */
 
 .navbar-toggler,

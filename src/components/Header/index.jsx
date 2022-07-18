@@ -23,9 +23,88 @@ function Header() {
                             <ul className="d-flex justify-content-between align-items-center">
                                 <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav"><a href="#Homelink">HOME</a></li>
                                 <li><a href="#aboutlink">ABOUT</a></li>
-                                <li><a href="#connectinglink">OUR PLATFORMS </a></li>
-                                <li><a href="#joinuslink">EVENTS</a></li>
-                                <li><a href="#forwardschelink">FORWARD SCHEDULE </a></li>
+                                {/* <li><a href="#connectinglink">OUR PLATFORMS </a></li> */}
+                                <li className="nav-item dropdown" id="navbarNavDarkDropdown">
+                                    <a className="nav-link p-0 dropdown-toggle" href="#" id="navbarDarkDropdownMenuLinkPlatforms" role="button" data-bs-toggle="dropdown" >
+                                        OUR PLATFORMS
+                                    </a>
+                                    <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLinkPlatforms">
+                                        <li>
+                                            <a className="dropdown-item" href="https://www.tresconglobal.com/conferences/" rel="noreferrer"
+                                                target="_blank">
+                                                CONFERENCES
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://www.tresconglobal.com/bespoke-events/" rel="noreferrer"
+                                                target="_blank">
+                                                BESPOKE EVENTS
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://www.tresconglobal.com/expos.php" rel="noreferrer"
+                                            target="_blank">
+                                                EXPOS
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="nav-item dropdown" id="navbarNavDarkDropdown">
+                                    <a className="nav-link p-0 dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
+                                        Events
+                                    </a>
+                                    <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li>
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/blockchain/" rel="noreferrer"
+                                                target="_blank">
+                                                World Blockchain Summit
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/ai/" rel="noreferrer"
+                                                target="_blank">
+                                                World AI Show
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/cyber-sec/" rel="noreferrer"
+                                            target="_blank">
+                                                World Cybersecurity Summit
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/cloud/" rel="noreferrer"
+                                            target="_blank">
+                                                World Cloud Summit
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="nav-item dropdown" id="navbarNavDarkDropdown">
+                                    <a className="nav-link p-0 dropdown-toggle" href="#" id="navbarDarkDropdownMenuLinkSchedule" role="button" data-bs-toggle="dropdown" >
+                                        FORWARD SCHEDULE
+                                    </a>
+                                    <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLinkSchedule">
+                                        <li>
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/mena21-event-calendar-virtual.pdf" rel="noreferrer"
+                                                target="_blank">
+                                                MENA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/asia21-event-calendar-virtual.pdf" rel="noreferrer"
+                                                target="_blank">
+                                                APAC
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/india21-event-calendar-virtual.pdf" rel="noreferrer"
+                                            target="_blank">
+                                                India
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="#clientlink">CLIENTS</a></li>
                                 <li><a href="#joinuslink">CAREERS</a></li>
                                 <li><a href="#contactlink">CONTACT</a></li>
