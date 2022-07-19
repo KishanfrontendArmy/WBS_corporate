@@ -168,25 +168,25 @@ export const AdvisoryBoardData = [
     time: "0.5s",
   },
   {
-    img: "/images/advisory_board_member_1.png",
-    name: "DR. SATYAM PRIYADARSHY",
-    text: "Technology Fellow & Chief Data Scientist, Halliburton;",
-    country: "UNITED STATES",
+    img: "/images/advisory_board_member_4.png",
+    name: "DR. GANESH NATARAJAN",
+    text: "Founder - 5F World; Chairman SVP India; Center for AI and advanced analytics",
+    country: "INDIA",
     time: "0.7s",
   },
   {
-    img: "/images/advisory_board_member_2.png",
-    name: "DR. SID AHMED BENRAOUANE",
-    text: "Professor, Carlson School of Management, UMN; Advisor, Dubai Police;",
-    country: "UNITED ARAB EMIRATES",
+    img: "/images/advisory_board_member_5.png",
+    name: "DR. PARITOSH BASU",
+    text: "Senior Professor, School of Business Management, NMIMS University; Ex CFO, Reliance Communications",
+    country: "INDIA",
     time: "0.9s",
   },
   {
-    img: "/images/advisory_board_member_3.png",
-    name: "AXEL ANGELI",
-    text: "Digital Transformation Evangelist; Founder, Logosworld",
-    country: "GERMANY",
-    time: "0.5s",
+    img: "/images/advisory_board_member_6.png",
+    name: "Jorge Sebastiao",
+    text: "CTO EcoSystem, Huawei",
+    country: "UNITED ARAB EMIRATES",
+    time: "1.1s",
   }
 ];
 
