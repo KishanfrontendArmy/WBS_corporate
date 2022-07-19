@@ -73,9 +73,27 @@ function Header() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/cloud/" rel="noreferrer"
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/bfsi/india/" rel="noreferrer"
                                             target="_blank">
-                                                World Cloud Summit
+                                                Big BFSI Future Tech Show
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://tresconglobal.com/conferences/cio/india/" rel="noreferrer"
+                                            target="_blank">
+                                                Big CIO Show
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://world5gshow.com/" rel="noreferrer"
+                                            target="_blank">
+                                                World 5G Show
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://worldevshow.com/" rel="noreferrer"
+                                            target="_blank">
+                                                World EV Show
                                             </a>
                                         </li>
                                     </ul>
