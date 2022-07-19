@@ -287,7 +287,7 @@ const ConnectioningBusiness = () => {
                                 loop={true}
                                 spaceBetween={100}
                                 autoplay={{
-                                    delay: 3000,
+                                    delay: 4000,
                                     disableOnInteraction: false,
                                     pauseOnMouseEnter: true
                                 }}
@@ -327,7 +327,7 @@ const ConnectioningBusiness = () => {
                                     watchSlidesProgress={true}
                                     slidesPerView={1}
                                     autoplay={{
-                                        delay: 3000,
+                                        delay: 4000,
                                         disableOnInteraction: false,
                                         pauseOnMouseEnter: true
                                     }}

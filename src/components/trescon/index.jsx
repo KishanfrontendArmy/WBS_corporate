@@ -16,7 +16,12 @@ const Trescon = () => {
                             <h2>{data.name}</h2>
                             <p>{data.text}</p>
                             <div className="a_btn bdr_btn_white">
-                                <Link to={`${data.link}`} >Know more</Link>
+                                {data.link.includes('http') ?
+                                    <a href={data.link} target="_blank" rel="noreferrer"> Know more </a>
+                                :
+                                    <a href={data.link} > Know more </a>
+                                }
+                                {/* <Link to={`${data.link}`} >Know more</Link> */}
                             </div>
                         </div>
                     </div>

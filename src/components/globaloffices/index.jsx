@@ -12,7 +12,7 @@ const GlobalOffices = () => {
                     <h2>GLOBAL OFFICES</h2>
                 </div>
                 <h3 className="d-flex align-items-center justify-content-center">
-                    REACH US ON +91 7338503007
+                    REACH US ON +91 81059 75937
                     <span className="wht_icon">
                         <img src="/images/whatsapp_icon.png" alt="" />
                     </span>

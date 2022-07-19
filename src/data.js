@@ -147,46 +147,53 @@ export const WhoWorkedWithUsData = [
 
 export const AdvisoryBoardData = [
   {
-    img: "/images/advisory_board_member_1.png",
+    img: "/images/advisory-members/dr-satyam.png", //advisory_board_member_1.png",
     name: "DR. SATYAM PRIYADARSHY",
-    text: "Technology Fellow & Chief Data Scientist, Halliburton;",
+    text: "Technology Fellow & Chief Data Scientist, Halliburton",
     country: "UNITED STATES",
     time: "0.1s",
   },
   {
-    img: "/images/advisory_board_member_4.png",
+    img: "/images/advisory-members/ganesh.png", //advisory_board_member_4.png",
     name: "DR. GANESH NATARAJAN",
     text: "Founder - 5F World; Chairman SVP India; Center for AI and advanced analytics",
     country: "INDIA",
     time: "0.3s",
   },
   {
-    img: "/images/advisory_board_member_5.png",
+    img: "/images/advisory-members/paritosh.png", //advisory_board_member_5.png",
     name: "DR. PARITOSH BASU",
     text: "Senior Professor, School of Business Management, NMIMS University; Ex CFO, Reliance Communications",
     country: "INDIA",
     time: "0.5s",
   },
   {
-    img: "/images/advisory_board_member_2.png",
+    img: "/images/advisory-members/dr-sid.png", //advisory_board_member_2.png",
     name: "DR. SID AHMED BENRAOUANE",
     text: "Professor, Carlson School of Management, UMN; Advisor, Dubai Police;",
     country: "UNITED ARAB EMIRATES",
     time: "0.7s",
   },
   {
-    img: "/images/advisory_board_member_3.png",
+    img: "/images/advisory-members/axel.png", //advisory_board_member_3.png",
     name: "AXEL ANGELI",
     text: "Digital Transformation Evangelist; Founder, Logosworld",
     country: "GERMANY",
     time: "0.9s",
   },
   {
-    img: "/images/advisory_board_member_6.png",
-    name: "Jorge Sebastiao",
+    img: "/images/advisory-members/jorge.png", //advisory_board_member_6.png",
+    name: "JORGE SEBASTIAO",
     text: "CTO EcoSystem, Huawei",
     country: "UNITED ARAB EMIRATES",
     time: "1.1s",
+  },
+  {
+    img: "/images/advisory-members/sarvapali.png", //advisory_board_member_6.png",
+    name: "SARVAPALI (GOPAL) RAMCHURN",
+    text: "Prof. of AI, University of Southampton",
+    country: "UK",
+    time: "1.3s",
   }
 ];
 
@@ -244,20 +251,20 @@ export const TresconData = [
   {
     img: "/images/DSC00659.png",
     name: "ABOUT",
-    link: "/about",
-    text: "An exemplary board of highly accomplished advisors, and a senior management with over Eight decades of experience in the events industry is leading Trescon to create world-className exhibitions, some of the industry's biggest conferences and high-level summits - all over the world.",
+    link: "https://www.tresconglobal.com/about.php",
+    text: "An exemplary board of highly accomplished advisors, and a senior management with over eight decades of experience in the events industry is leading Trescon to create world-class exhibitions, some of the industry's biggest conferences and high-level summits - all over the world.",
   },
   {
     img: "/images/shutterstock_1698876385.png",
     name: "HISTORY",
-    link: "history",
-    text: "Since its inception, Trescon has successfully connected thousands of industry experts, technology providers, startups, investors, regional policymakers, government authorities to more than 100k+ participants covering various industry sectors.",
+    link: "https://www.tresconglobal.com/about.php",
+    text: "Since its inception, Trescon has successfully connected thousands of industry experts, technology providers, startups, investors, regional policymakers, government authorities to more than 200k+ participants covering various industry sectors.",
   },
   {
     img: "/images/AFS04248.png",
     name: "SERVICES",
-    link: "services",
-    text: "With an ever-growing team of 250+ professionals in registered and partner offices across the world, Trescon delivers world-className B2B events covering emerging trends, future technologies, major industry sectors and economies - all with global standards and local know-how.",
+    link: "#connectinglink",
+    text: "With an ever-growing team of 250+ professionals in registered and partner offices across the world, Trescon delivers world-class B2B events covering emerging trends, future technologies, major industry sectors and economies - all with global standards and local know-how.",
   },
 ];
 
@@ -374,7 +381,7 @@ export const HeroImageSwipeData = [
       {
         title: "80",
         sign: "+",
-        description: "MEDIA PARTNER",
+        description: "MEDIA PARTNERS",
         time: "1s",
       },
       {
@@ -415,7 +422,7 @@ export const HeroImageSwipeData = [
       {
         title: "150",
         sign: "+",
-        description: "MEDIA PARTNER",
+        description: "MEDIA PARTNERS",
         time: "1s",
       },
       {
