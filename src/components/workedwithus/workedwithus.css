@@ -150,6 +150,9 @@ section.who_worked_with::after {
   section.who_worked_with::after {
     top: 300px;
   }
+  .who_worked_with_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -176,7 +179,7 @@ section.who_worked_with::after {
     font-size: 19px;
   }
   .who_worked_with_box {
-    max-width: 120px;
+    max-width: 245px;
   }
   section.who_worked_with {
     padding: 50px 0;
@@ -186,11 +189,20 @@ section.who_worked_with::after {
   .who_worked_with_inr {
     padding-top: 30px;
   }
+  .who_worked_with_list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media screen and (max-width: 479px) {
   .who_worked_with_inr h2 {
     font-size: 18px;
+  }
+  .who_worked_with_box {
+    max-width: 100%;
+  }
+  .who_worked_with_list {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
@@ -200,7 +212,7 @@ section.who_worked_with::after {
     padding-bottom: 15px;
   }
   .who_worked_with_box {
-    max-width: 100px;
+    max-width: 100%;
   }
 }
 
