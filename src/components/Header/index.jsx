@@ -128,19 +128,19 @@ function Header() {
                                     </a>
                                     <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLinkSchedule">
                                         <li>
-                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/mena21-event-calendar-virtual.pdf" rel="noreferrer"
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2022/mena-event-calendar-virtual.pdf" rel="noreferrer"
                                                 target="_blank">
                                                 MENA
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/asia21-event-calendar-virtual.pdf" rel="noreferrer"
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2022/asia-event-calendar-virtual.pdf" rel="noreferrer"
                                                 target="_blank">
                                                 APAC
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2021/india21-event-calendar-virtual.pdf" rel="noreferrer"
+                                            <a className="dropdown-item" href="https://trescon.s3.us-east-2.amazonaws.com/corp/event-calendar/2022/india-event-calendar-virtual.pdf" rel="noreferrer"
                                             target="_blank">
                                                 India
                                             </a>
