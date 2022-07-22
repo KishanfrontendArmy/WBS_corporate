@@ -57,7 +57,7 @@ section.hero_banner  .hero_banner_slide_item {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 38px;
+    font-size: 35px;
     letter-spacing: 1px;
     line-height: 1;
     color: #f9f9f9;
@@ -82,13 +82,13 @@ section.hero_banner  .hero_banner_slide_item {
     top: -6px;
   }
   .media_coverage_box p {
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 0 0 0;
     color: #f9f9f9;
   }
   .hero_banner_text small {
     color: #f9f9f9;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1;
     display: inline-block;
     padding: 17px 0 0 0;
@@ -174,9 +174,9 @@ section.hero_banner  .hero_banner_slide_item {
 }
 
 @media screen and (max-width:1300px) {
-    .media_coverage_box p {
+    /* .media_coverage_box p {
         font-size: 16px;
-    }
+    } */
     .hero_banner_slider_btns>div {
         width: 70px;
         height: 70px;

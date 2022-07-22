@@ -17,6 +17,266 @@ section.what_attendees_say {
   line-height: 63px;
   margin: 0 0 24px 0;
 }
+/******************** What Attendees Say CSS ********************/
+section.what_attendees_say {
+  position: relative;
+}
+
+.what_attendees_say_text {
+  position: relative;
+  padding: 8.60% 0 50.3% 0;
+}
+
+.what_attendees_say_text h2 {
+  font-size: 60px;
+  color: #f8f8f8;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 63px;
+  margin: 0 0 24px 0;
+}
+
+.what_attendees_say_text h2 strong {
+  display: block;
+  color: #fbb51a;
+  font-size: 130px;
+  line-height: 183px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.what_attendees_say_video {
+  position: relative;
+}
+.what_attendees_say_video img {
+  width: 100%;
+}
+.what_attendees_say_video:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 70%;
+  opacity: 0.8;
+  bottom: 0;
+  background: rgb(81, 68, 55);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(81, 68, 55, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+.what_attendees_say_right a {
+  width: 188px;
+  height: 188px;
+  background: #fbb51a;
+  border-radius: 100%;
+  box-shadow: 0 0 20px 15px rgb(254 207 104);
+  padding: 0 0 0 10px;
+  cursor: pointer;
+}
+.what_attendees_say_right a.videosPlay {
+    padding-left: 0;
+}
+
+.what_attendees_say_right a svg {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.what_attendees_say_right a:hover svg {
+  transform: scale(1.2);
+}
+
+.what_attendees_say.hide_content .what_attendees_say_left {
+    opacity: 0;
+}
+.btn_pause_icon {
+    display: none;
+}
+.videosPlay .btn_pause_icon {
+    display: block;
+}
+.videosPlay .btn_play_icon {
+    display: none;
+} 
+/******************** Waht Attendees Say CSS ********************/
+
+
+
+
+/* /************************** What Attendees Say ************************** / */
+
+@media screen and (max-width:1800px) {
+
+}
+
+@media screen and (max-width:1700px) {
+    /* .what_attendees_say_text h2 {
+        font-size: 60px;
+    } */
+}
+
+@media screen and (max-width:1600px) {
+    .what_attendees_say_text h2 strong {
+        font-size: 120px;
+        line-height: 163px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .what_attendees_say_text {
+        position: relative;
+        padding-top: 10%;
+    }
+    .what_attendees_say_text h2 {
+        font-size: 55px;
+    }
+    .what_attendees_say_text h2 strong {
+        font-size: 100px;
+        line-height: 143px;
+    }
+    .what_attendees_say_right a {
+        width: 165px;
+        height: 165px; 
+    }
+    .what_attendees_say_right a svg {
+        width: 65px;
+    }
+}
+
+
+@media screen and (max-width:1300px) {
+    .bdr_btn_white a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .what_attendees_say_text h2 {
+        font-size: 45px;
+    }
+    .what_attendees_say_text h2 strong {
+        font-size: 80px;
+        line-height: 112px;
+    }
+    .what_attendees_say_right a {
+        width: 150px;
+        height: 150px; 
+    }
+    .what_attendees_say_right a svg {
+        width: 55px;
+    }
+    .what_attendees_say_text {
+        padding: 12% 0 55%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .what_attendees_say_text h2 {
+        font-size: 40px;
+    }
+    .what_attendees_say_text h2 strong {
+        font-size: 64px;
+        line-height: 92px;
+    }
+    .what_attendees_say_right a {
+        width: 120px;
+        height: 120px; 
+    }
+    .what_attendees_say_right a svg {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .what_attendees_say_inr {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        gap: 30px;
+    }
+    .what_attendees_say_text {
+      padding: 24% 0;
+    }
+    .what_attendees_say_text h2 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    .what_attendees_say_text h2 strong {
+        font-size: 58px;
+        line-height: 72px;
+    }
+    .what_attendees_say_right a {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0 0 14px 10px rgb(254 207 104 / 57%);
+        
+    }
+    .what_attendees_say_right a svg {
+        width: 35px;
+    }
+    .what_attendees_say_video img {
+        width: 100%;
+        min-height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .what_attendees_say_text h2 {
+        font-size: 30px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .what_attendees_say_text h2 strong {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .what_attendees_say_right a {
+        width: 80px;
+        height: 80px;
+        box-shadow: 0 0 14px 10px rgb(254 207 104 / 57%);
+        
+    }
+    .what_attendees_say_right a svg {
+        width: 25px;
+    }
+    .what_attendees_say_text {
+        padding: 20% 0;
+    } 
+}
+
+@media screen and (max-width:374px) {
+    .what_attendees_say_text h2 {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .what_attendees_say_text h2 strong {
+        font-size: 39px;
+        line-height: 50px;
+    }
+    .what_attendees_say_video img {
+        min-height: 350px;
+    }
+}
+
+/* /************************** What Attendees Say ************************** / */
+
+
+
 
 .what_attendees_say_text h2 strong {
   display: block;

@@ -40,9 +40,9 @@ section.connectiong_business::before {
 }
 
 .connectiong_business_title {
-  max-width: 70%;
+  max-width: 50%;
   margin: 0 auto;
-  min-height: 360px;
+  min-height: 270px;
 }
 .connectiong_business_title h2 span {
   position: relative;
@@ -75,8 +75,8 @@ section.connectiong_business::before {
   width: 100%;
 }
 .connectiong_business_inr_left_slide_item h3 {
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 58px;
+  line-height: 58px;
   font-weight: 900;
   color: #fbb51a;
   text-align: center;
@@ -87,14 +87,14 @@ section.connectiong_business::before {
   display: inline-block;
   text-align: center;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 32px;
   width: 100%;
   padding: 67px 0 30px 0;
 }
 
 .connectiong_business_inr_left_slide_item p {
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 32px;
   text-align: center;
   color: #0e0d0d;
 }
@@ -272,10 +272,10 @@ section.connectiong_business::before {
   .connectiong_business_inr_left_slide_item {
       padding-right: 30px;
   }
-  .connectiong_business_inr_left_slide_item p {
+  /* .connectiong_business_inr_left_slide_item p {
       font-size: 22px;
       line-height: 32px;
-  }
+  } */
   .connectiong_business_title h2 strong {
       font-size: 70px;
   } 
